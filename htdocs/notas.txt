@@ -1,6 +1,8 @@
 https://www.tutorialspoint.com/es/software_engineering/index.htm
 https://helpjuice.com/blog/software-documentation
 https://www.tutorialspoint.com/es/software_engineering/index.htm
+https://kislayverma.com/
+https://kislayverma.com/software-architecture/a-narrative-approach-to-software-design/
 
 
 Reducir la colaboración mediante un buen diseño
