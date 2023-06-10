@@ -1,1 +1,68 @@
 https://www.tutorialspoint.com/es/software_engineering/index.htm
+https://helpjuice.com/blog/software-documentation
+https://www.tutorialspoint.com/es/software_engineering/index.htm
+
+
+Reducir la colaboración mediante un buen diseño
+Kislay Verma · Publicado el 15 de marzo de 2021
+
+
+El valor de la colaboración, hablar con su equipo y sus clientes está en la etapa 
+de lluvia de ideas o en la fase de aprendizaje. Aquí es donde debemos reunir 
+nuestras mentes colectivas, intercambiar ideas y descubrir los próximos pasos. 
+Una vez superada esta etapa y entramos en la fase de ejecución, la colaboración 
+se convierte en una sobrecarga peligrosa.
+
+
+Si varios equipos y personas deben construir algo nuevo juntos, la sincronización es inevitable hasta cierto punto. 
+Sin embargo, existe un tipo específico de colaboración de bajo impacto en el que las personas hablan entre sí para averiguar qué capacidades existen y cómo usarlas. 
+Esto se ve cuando un equipo de producto intenta incorporarse a una plataforma organizando primero una reunión sobre cómo usarla. 
+Esto se ve en las 'salas de guerra de integración' donde dos equipos intentan configurar sus sistemas correctamente para comunicarse entre sí. 
+Esto se ve cuando nuestros compañeros de equipo nos envían un ping sobre la forma correcta de usar esa API que escribimos el otro día. 
+Esta conversación no se trata de construir cosas nuevas, se trata de descubrir cómo usar lo que existe. 
+En mi opinión, esto es un desperdicio total.
+
+Los desarrolladores se obsesionan con hacer que todas las interacciones comerciales sean de autoservicio. 
+En las organizaciones con muchas operaciones, los equipos gastan una cantidad significativa de ancho de banda en la creación de herramientas para 'habilitar' a los equipos de operaciones. 
+Los mismos ingenieros, sin embargo, están perfectamente bien sentados con equipo tras equipo en reuniones para explicarles cómo usar su software. 
+Trabajar con equipos que no son de ingeniería se considera sobrecarga, trabajar con otros equipos de ingeniería es colaboración.
+
+Cuanto más profundos estén los sistemas de un equipo en la pila de arquitectura, es más probable que se reutilicen. 
+Cuantas más personas quieran usarlos, más necesita este equipo responder preguntas sobre qué y cómo. 
+Cuanto más tiempo dedican a responder estas preguntas operativas, menos tiempo dedican realmente a crear cosas nuevas y geniales. 
+Un círculo vicioso perfecto. 
+Los equipos y las personas pasan una gran cantidad de tiempo simplemente explicando cómo funcionan las cosas a los demás.
+
+Esta situación es claramente menos que óptima, entonces, ¿cómo podemos hacerlo mejor?
+
+Esto no es tanto un problema como un cambio de perspectiva. 
+Como ingenieros, a menudo consideramos que toda la ingeniería es interna y capaz de navegar procesos técnicos complicados. 
+Lo que hay que tener en cuenta es que no deberían tener que hacerlo. 
+Al igual que las operaciones y otros equipos de 'negocios', si otros equipos y desarrolladores tienen SOP bien definidos para usar su código, habremos recorrido un largo camino para eliminar la colaboración humana innecesaria.
+
+En este mundo de excelencia operativa, hay dos herramientas que se destacan por encima de todas las demás técnicas: la documentación y el diseño. 
+¿Qué pasa si pensamos en todo el trabajo de software como la construcción de un producto? Mis clientes, que resultan ser otros ingenieros en este contexto, deberían poder explorar y comprender mi producto, jugar con él y finalmente suscribirse a él con una mínima intervención humana.
+
+Para que puedan hacer esto, la documentación es una herramienta poderosa. 
+Imagínese si la documentación de su sistema estuviera actualizada, tuviera pautas claras sobre cómo hacer qué y explicara los diferentes escenarios. 
+¿No sería genial? El mundo de las operaciones prácticamente se basa en este tipo de documentación: detallada, precisa y explícita. 
+El problema es que este tipo de documentación es difícil de mantener, especialmente en el mundo del software ágil. 
+Además, nadie lee documentos. 
+Es mucho más probable que las personas hagan ping al autor del documento para una reunión en lugar de pasar por algo muy detallado. 
+Por eso considero a la documentación un actor secundario en esta obra.
+
+En mi opinión, la herramienta más importante que podemos utilizar para resolver este problema es un buen diseño. 
+Cuando el sistema está expuesto de tal manera que el usuario no puede cometer un error al usarlo, entonces el núcleo mismo del problema desaparece. 
+La documentación puede reforzar aún más este buen diseño al llevar a los rezagados al lugar correcto, pero toda la experiencia de usar un sistema, herramienta o API debe diseñarse explícitamente para que el usuario haga lo correcto sin ambigüedades.
+
+Esta no es una idea descabellada. 
+Esto es lo que es el pensamiento de producto, tal como se aplica a la mayoría de los productos de los clientes. 
+Es solo que los ingenieros en su mayoría no aplican el mismo pensamiento a las herramientas de desarrollo. 
+Prácticamente siempre, experiencia del cliente> experiencia de herramientas internas> experiencia del desarrollador. 
+Esto es un poco triste porque la experiencia del desarrollador es donde toda la organización de ingeniería pasa su tiempo. 
+Imagine lo que su equipo podría lograr si cada experiencia de uso de un nuevo software fuera tan fluida como la experiencia del cliente de su empresa.
+
+'Cómo debo usarlo' indica una falla de diseño y requiere un pensamiento de producto enfocado para solucionarlo. 
+Vale la pena el esfuerzo porque responder a esta pregunta es la forma más baja de valor añadido colaborativo. 
+Escucho muchos comentarios de los desarrolladores en las líneas de 'X es un gran desarrollador porque realmente pasó mucho tiempo ayudándome a usar su sistema'. 
+Si bien no estoy en desacuerdo

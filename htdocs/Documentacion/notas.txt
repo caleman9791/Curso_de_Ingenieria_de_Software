@@ -13,4 +13,3 @@ Software_Mantenimiento
 Software_CASE_Herramientas
 Mejores_practicas_del_desarrollador
 
-https://www.tutorialspoint.com/es/software_engineering/index.htm
