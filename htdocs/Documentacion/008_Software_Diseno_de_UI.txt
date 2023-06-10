@@ -1,14 +1,151 @@
-Software_Vision_General
-Software_Ciclo_de_Vida_de_Desarrollo
-Software_Gestion_del_Proyecto
-Software_Requisitos
-Software_Basicas_de_Diseno
-Herramientas_de_Analisis_y_de_Diseno
-Software_Estrategias_de_Diseno
-Software_Diseno_de_UI
-Software_Diseno_Complejidad
-Software_Implementacion
-Software_Vision_General_de_Pruebas
-Software_Mantenimiento
-Software_CASE_Herramientas
-Mejores_practicas_del_desarrollador
+
+tutorialspoint.com
+Software - DiseÃ±o de UI
+11–15 minutes
+
+La interfaz de usuario es la parte visible de la aplicación front-end (traducible al español como interfaz) con la que el usuario interacciona a fin de usar el software. El usuario puede manipular y controlar el software así como el hardware por medio de las interfaces de usuario. Hoy en día, la interfaz de usuario se encuentra casi en todos los lugares donde existe tecnología digital, desde ordenadores, móviles, coches, reproductores de música, aviones, barcos, etc.
+
+La interfaz de usuario es parte del software y está diseñada de tal manera que se espera proveer al usuario con un conocimiento sobre la percepción del software. La UI (Interfaz de usuario) también aporta una plataforma fundamental para la interacción entre los humanos y el ordenador.
+
+La UI puede ser gráfica, en forma de texto, audiovisual, dependiendo del hardware subyacente y su combinación con el software. La UI puede ser un hardware, un software o una combinación de ambos.
+
+El software suele ser más popular cuando su UI es:
+
+    Atractiva
+    Fácil de usar
+    De respuesta rápida
+    Clara de comprender
+    Coherente en toda la pantalla de interfaz
+
+La UI se divide en dos categorías:
+
+    Interfaz de línea de comandos
+    Interfaz gráfica de usuario (GUI)
+
+Interfaz de línea de comandos(CLI en sus siglas inglesas)
+
+La interfaz de línea de comandos, traducción del inglés command-line interface –la cual es, en realidad, una transcripción incorrecta de Interfaz de línea de órdenes, por el falso amigo command (orden/instrucción), ha sido una gran herramienta de interacción con ordenadores haste que llegaron los reproductores de video. La CLI es la primera opción de muchos usuarios técnicos y programadores. La CLI es la interfaz mínima que un software puede ofrecer a sus usuarios.
+
+La CLI ofrece un símbolo del sistema, el lugar donde el usuario escribe el comando y alimenta al sistema. El usuario debe recordar la sintaxis del comando y también su uso. Hace un tiempo las CLI no estaban programadas para tratar los errores del usuario de forma eficiente.
+
+Un comando es una referencia de instrucciones en modo texto, las cuales serán ejecutadas por el sistema. Existen méodos como macros macro (del griego μακρο, makro, que significa ‘grande’, es una abreviatura de macroinstrucción), scripts (también llamado archivo de órdenes, archivo de procesamiento por lotes o guion), que facilitan al usuario operar con el software.
+
+La CLI usa menos cantidad de recursos informáticos en comparación con la GUI.
+Elementos de la CLI
+
+Command Line Interface (CLI)
+
+Una CLI en forma de texto puede tener los elementos que se exponen a continuación:
+
+    Símbolo de sistema - Es un notificador en texto que mayormente muestra el contexto en el que el usuario trabaja. Es generado por el sistema de software.
+
+    Cursor - Es una línea horizontal o una barra vertical de la longitud de la línea, para representar la posición del carácter mientras se escribe. El cursor se encuentra por lo general en un estado de parpadeo. Se mueve a medida que el usuario escribe o elimina algo.
+
+    Comando(o Orden) - Un comando es una instrucción ejecutable. Puede tener uno o más parámetros. El resultado de la ejecución del comando se muestra alineado en la pantalla. Cuando se produce una salida, el símbolo de sistema se muestra en la siguiente línea.
+
+Interfaz gráfica de usuario
+
+La Interfaz gráfica de usuario está diseñada para interactuar con el sistema. La GUI puede ser una combinación de hardware y software. Usando una GUI, el usuario puede interpretar el software.
+
+Por lo general, la GUI consume más recursos que la CLI. Con tecnología avanzada, los programadores y diseñadores diseños complejos de GUI que funcionan con más eficiencia, velocidad y precisión.
+Elementos de la GUI
+
+La GUI ofrece un conjunto de componentes para interactuar con el software o con el hardware.
+
+Cada componente gráfico ofrece una modo de trabajo con el sistema. Un sistema de GUI tiene algunos de los elementos mencionados a continuación:
+
+Graphical User Interface
+
+    Ventana - Zona donde se muestran los contenidos de las aplicaciones. Los contenidos de una ventana se pueden mostrar en forma de iconos o de listas, si la ventana representa la estructura del archivo. Navegar es más fácil para el usuario en el sistema de archivos en una ventana de exploración. La ventanas se pueden minimizar, minimizar su tamaño, o maximizar a la medida de la pantalla. Se pueden mover a cualquier lugar de la pantalla. Una ventana puede contener otra ventana de la misma aplicación, llamada ventana hija.
+
+    Pestañas - Si una aplicación permite ejecutar más de una instancia de ella misma, aparecen en la pantalla en una ventana separada. Navegación por pestañas Ha aparecido para abrir más de un documento en la misma ventana. Esta interfaz también contribuye en la visión del panel de preferencia en la aplicación. Todos los exploradores web modernos usan esta característica.
+
+    Menú - El Menú es un despliegue de comandos estándars, agrupados juntos y colocados en un lugar visible (normalmente en la parte superior) dentro de la ventana de la aplicación. El menú se puede programar para aparecer o mostrarse escondido usando los botones del ratón.
+
+    Icono - Un icono es una pequeña imagen que representa una aplicación asociada. Cuando se aprietan estos iconos o con uno o con doble click, la ventana de aplicación se abre. Los iconos muestran aplicaciones y programas instalados en un sistema en forma de pequeñas imágenes.
+
+    Cursor - Usando dispositivos como el ratón, touch pad (panel táctil), el lápiz digital son representados en GUI como cursores. En la pantalla el cursor sigue las instrucciones del hardware casi en tiempo real. Los cursores son también llamados puntero en sistemas de GUI. Se usan para seleccionar menús, ventanas, y otras características de la aplicación.
+
+Componentes GUI para aplicaciones específicas
+
+La GUI de una aplicación contiene uno o más elementos que se enumeran a continuación:
+
+    Ventana de la aplicación - La mayoría de ventanas de la aplicación usan los algoritmos de sistemas operadores pero algunas usan su propia creación de ventana de usuario para almacenar los contenidos de la aplicación.
+
+    Cuadro de diálogo - Es una ventana hija que contiene un mensaje de petición para el usuario para que lleve a cabo una acción determinada. Por ejemplo: Una aplicación genera un diálogo para tener confirmación del usuario para eliminar un archivo.
+    caja de diálogo
+
+    Caja de texto - Ofrece una zona para que el usuario escriba o para que introduzca datos en texto.
+
+    Botones - Imitan botones de la vida real y se usan para enviar entradas al software.
+    Radio-botón
+
+    botón de Radio - Muestra opciones de selección disponibles. Sólo se puede seleccionar una de entre todas las que se ofrecen.
+
+    Casilla de verificación - Las funciones son similares a las del Cuadro de lista. Cuando se selecciona una opción, la casilla aparece como marcada. Se pueden seleccionar múltiples opciones representadas por casillas de verificación.
+
+    Cuadro de lista - Aporta una lista de los ítems disponibles para la selección. Se puede seleccionar más de un ítem.
+    Lista de caja
+
+Otros componentes soprprendentes de la GUI son:
+
+    Sliders
+    Combo-box (casilla combinada)
+    Data-grid (Cuadrícula de datos)
+    Drop-down list (Lista desplegable)
+
+Actividades de diseño de la interfaz de usuario
+
+Se realizan muchas actividades para el diseño de la interfaz de usuario. El proceso para el diseño de la GUI así como su implementación es como el SDLC. Se puede usar Cualquier modelo para la implementación de una GUI entre los modelos de Cascada, reiterativo, o en espiral.
+
+Un modelo usado para el diseño y el desarrollo de la GUI debe satisfacer estos pasos específicos.
+
+Proceso de interfaz gráfica de usuario
+
+    Recogida de requisitos de la GUI - A los diseñadores quizá les guste tener una lista de todos los requisitos funcionales y no funcionales de la GUI. Esto se puede obtener del usuario y de su solución software existente.
+
+    Análisis de usuario - El diseñador estudia quié va a usar el software de la GUI. El target de consumidores es importante ya que los detalles del diseño cambian según el conocimiento y el nivel de competencia del usuario. Si el usuario es entendido en cuestiones técnicas, se puede incorporar una GUI avanzada y compleja. Para un usuario novato, se incluye más información sobre cómo usar el software.
+
+    Análisis de tarea - Los diseñadores deben analizar qué tareas tiene que hacer la solución software. Para la GUI, no importa cómo se hará. Las tareas se pueden representar de forma jerárquica tomando las tareas mayores y dividiéndolas en sub tareas más pequeñas. Las tareas aportan los objetivos para la presentación de la GUI. El flujo de información entre sub teareas determina el flujo de contenidos de la GUI en el software.
+
+    Diseño e implementación de la GUI - Los diseñadores una vez han obtenido información sobre los requisitos, las tareas y el entorno del usuario, diseñan e implementan el código de la GUI, incorporando software simulado en el fondo. Luego se evalúa por los desarrolladores.
+
+    Evaluación - Las pruebas para la GUI se pueden hacer de varias maneras. La organización puede tener inspección interna, una implicación directa de los usuarios, o se puede sacar una versión beta. Las pruebas pueden incluir usabilidad, compaibilidad, aceptación por parte del usuario, etc.
+
+Herramientas de implementación de la GUI
+
+Hay muchas herramientas disponibles con las que los diseñadores pueden crear la totalidad de las GUI. Algunas herramientas se pueden incorporar en en entorno software(IDE).
+
+La implementación de las herramientas de la GUI ofrece un poderoso despliegue de controles de GUI. Para la customización del software customization, los diseñadores pueden cambiar el código en acorde.
+
+Hay distintos segmentos de las herramientas GUI según su uso y su plataforma.
+Ejemplo
+
+GUI para móvil, para ordenador, para pantalla táctil, etc. Aquí se enumeran algunas herramientas útiles para la construcción de una GUI:
+
+    FLUID
+    AppInventor (Android)
+    LucidChart
+    Wavemaker
+    Visual Studio
+
+Reglas de oro para una interfaz de usuario
+
+Las siguientes reglas se consideran reglas de oro para el diseño de una GUI. Fueron descritas por Shneiderman y Plaisant en su libro ('Designing the User Interface', en español 'Diseñando interfaces e usuario').
+
+    Esfuerzo de coherencia - Las secuencias coherentes de acciones son requeridas en situaciones similares. Se debe usar terminología idéntica en menús, prompts, y pantallas de ayuda. Los comandos coherentes deben ser empleados en de punta a cabo.
+
+    Posibilitar el uso de atajos a usuarios frecuentes - El deseo del usuario por reducir el número de interacciones se incrementa con la frecuancia de uso. Las abreviaciones, funciones clave, comandos escondidos, y facilidades macro son muy útiles para un usuario experto.
+
+    Ofrecer retroalimientación informativa - Para cada acción del operador, debe haber alguna retroalimentación de sistema. Para acciones menors y frecuentes, la respuesta debe ser modesta, mientras que para acciones no frecuentes y mayores, la respuesta debe ser más substancial.
+
+    Diseñar diálogo para permitir el cierre - Las secuencias de acciones se deben organizar en grupos con un inicio, núcleo, y final. La retroalimentación informativa cuando se completa un grupo de acciones da a los operadores una gran satisfacción de logro, un sentimiento de alivio, la señal de abandonar planes y opciones de contingencia de sus mentes, y esto indica que el camino a seguir es claro y se pueden preparar para el siguiente grupo de acciones.
+
+    Ofrecer tratamientos de error simples - Diseñe tanto como sea posible el sistema para que el usuario no haga errores graves. Si se comete un error, el sistema debe poder detectarlo y ofrecer mecanismos simples y comprensibles para tratar el error.
+
+    Permitir dehacer acciones facilmente - Esta característica reduce la ansiedad, ya que el usuario sabe que los errores se pueden deshacer. Esto motiva la exploración de opciones nuevas y no familiares. La unidades de reversibilidad pueden ser una sola acción, una entrada de datos, o un grupo de acciones.
+
+    Permitir la ubicación interna de control - Los operadores con experiencia desean de todo corazón poder sentir que tienen el control del sistema y que el sistema responde a sus acciones. Diseñe el sistema de modo que los usuarios puedan iniciar acciones en vez de ser los que responden.
+
+    Reducir la carga de memoria a corto plazo - La limitación humana para procesar información con una memoria a corto plazo hace necesario mantener la pantalla de forma simple, así como mostrar las páginas de forma coherente, reducir la frecuencia de 'window-motion' y asignar un tiempo de formación suficiente para los códigos, mnemónicos, y las secuencias de acciones.
+

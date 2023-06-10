@@ -1,14 +1,162 @@
-Software_Vision_General
-Software_Ciclo_de_Vida_de_Desarrollo
-Software_Gestion_del_Proyecto
-Software_Requisitos
-Software_Basicas_de_Diseno
-Herramientas_de_Analisis_y_de_Diseno
-Software_Estrategias_de_Diseno
-Software_Diseno_de_UI
-Software_Diseno_Complejidad
-Software_Implementacion
-Software_Vision_General_de_Pruebas
-Software_Mantenimiento
-Software_CASE_Herramientas
-Mejores_practicas_del_desarrollador
+
+tutorialspoint.com
+Software - VisiÃ³n General de Pruebas
+12–15 minutes
+
+Las pruebas de Software son una evaluación del software en contraste con la recogida de requisitos de usuarios y especificaciones de sistema. Las pruebas son conducidas al nivel de 'fase' en el SDLC o al nivel de módulo en código de programa. Las pruebas de Software incluyen la validación y la verificación.
+Validación del Software
+
+La validación es un proceso para examinar si el software satisface o no los requisitos del usuario. Se lleva a cabo al final del SDLC. Si el software cumple los requisitos por los cuales se diseñó, se valida.
+
+    La validación asegura que el producto en desarrollo cumplirá los requiistos del usuario.
+    La validación contesta a las preguntas – "¿Se está desarrollando el producto que intenta cumplir todos los requisitos que el usuario necesita?".
+    La validación emfatiza en los requisitos del usuario.
+
+Verificación Software
+
+La verificación es el proceso de confirmación del cuplimiento de los requisitos empresariales por parte del software, y se desarrolla ciñiéndose a especificaciones y metodologías adecuadas.
+
+    La verificación asegura que el producto que se está desarrollando va en acorde con las especificaciones de diseño.
+    La verificación responde a la pregunta– "¿Se está desarrollando el producto siguiendo de manera estricta todas las especificaciones de diseño?"
+    Las Verificaciones se concentran en el diseño y las especificaciones del sistema.
+
+El Target de la prueba es -
+
+    Errores - Son errores de codificación cometidos por los desarrolladores. Además, si hay una diferencia en la entreda de software y el resultado o output deseado, esto se considera un error.
+
+    Defecto - Cuando ocurren errores, hay defectos. Un defecto, es el resultado de un error que puede ocasionar fallos en el sistema.
+
+    Fallo - Es la inhabilidad del sistema de realizar la tarea deseada. Un fallo suele ocurrir cuando hay un defecto en el sistema.
+
+Pruebas manuales Vs Automatizadas
+
+La evaluación se puede hacer de forma manual o bien usando una herramienta de evaluación automatizada:
+
+    Manuales - Esta evaluación se lleva a cabo sin ayuda de herramientas de evaluación autmatizadas. El evaluador de software prepara ejemplos de pruebas para diferentes secciones y niveles del código, ejecuta las pruebas y entrega los informes al director.
+
+    Las pruebas manuales consumen mucho tiempo y recursos. Los evaluadores necesitan confirmar si los ejemplos de test se usan. La mayoría de evaluaciones incluyen pruebas manuales.
+
+    Automatizadas Esta evaluación sigue un procedimiento realizado con la ayuda de herramientas de evaluación automatizada. Las limitaciones con evaluaciones manuales se pueden subsanar con herramientas automatizadas de evaluación.
+
+La prueba necesita evaluar si la página web se puede abrir en Internet Explorer. Esto se puede realizar de forma simple con pruebas manuales. Pero para evaluar si el explorador web puede soportar la carga de 1 millón de usuarios, es casi imposible hacerlo de forma manual.
+
+Hay herramientas de software y hardware que ayudan a los evaluadores en la conducción de la evaluación de carga, pruebas de estrés, y pruebas de regresión.
+Aproximaciones para la evaluación
+
+Las pruebas se pueden conducir basándose en dos aproximaciones –
+
+    Pruebas funcionales
+    Pruebas de implementación
+
+Cuando se evalúa la funcionalidad sin considerar la implementación real, se conoce como Prueba de caja negra. El otro lado se conoce como prueba de caja blanca, donde no solo se evalúa la funcionalidad, también se analiza el modo de implementación.
+
+Los tests exaustivos son los métodos más deseados para una evaluación perfecta. Cada valor posible en el rango de valor de entrada y salida es evaluado. No es posible evaluar cada valor del mundo real si el rango d valores es grande.
+Pruebas de caja negra
+
+Se llevan a cabo para evaluar la funcionalidad del programa. También se denominan pruebas de conducta. El evaluador en este caso, tiene un conjunto de valores de entrada con su resultado deseado respectivo. Cuando se aporta la entrada o input, si el resultado o output cumple con los resultados deseados, el programa se puede evaluar bien, en caso contrario la evaluación será problemática.
+
+Prueba Negro-box
+
+En esta metodología de evaluación, el diseño y al estructura del código son desconocidos por el evaluador, así que ingenieros de evaluación y usuarios conducen este test sobre el software.
+
+Técnicas para pruebas de caja negra:
+
+    Clases de equivalencia - El input o entrada se divide en clases similares. Si un elemento de una clase pasa el test, se asume que todas las clases también pasarán.
+
+    Valores de los límites - El input o entrada se divide en valor final alto o valor final bajo. Si estos valores pasan el test, se asume que todos los valores que hay entre ellos también lo harán.
+
+    Gráfico causa-efecto - En los dos métodos previos, solo se evalua un valor de entrada cada vez, nunca más de uno a la vez. La causa (entrada)-efecto (salida) es una técnica de evaluación donde distintas combinaciones de valores de entrada se evalúan de forma sistémica.
+
+    Evaluación 'Pair-wise' - La conducta del software depende de muchos parámetros. En este tipo de evaluación, los parámetros múltiples se evalúan pair-wise (dos a la vez) para sus distintos valores.
+
+    Evaluación basada en el estado - El sistema cambia su estado en provisión de entradas. Este tipo de sistema se evalúa en base a su estatus y sus inputs o entradas.
+
+Pruebas de caja blanca
+
+Se conducen para evaluar el programa y sus implementaciones, a fin de mejorar la eficiencia del código o su estructura. También se conoce como evaluación estructural.
+
+Pruebas de caja blanca
+
+En este tipo de metodología, el diseño y la estructura del código son conocidos por el evaluador. Los programadores de código conducen este test en el código.
+
+A continuación se exponen algunas técnicas de evaluación de caja blanca:
+
+    Evaluación del flujo de control - El propósito de este tipo de evaluación es el de configurar ejemplos de test que cubran todas las condiciones de la compañía. Las condiciones de la compañía se evalúan para ambos siendo verdadro o falso, para que todas las declaraciones se puedan cubrir.
+
+    Evaluación del flujo de datos - Esta técnica emfatiza en cubrir todas las variables de datos incluídas en el programa. Evalúa dónde se declaran, definen, se usan o cambian las variables.
+
+Niveles de evaluación
+
+La evaluación por sí misma se puede definir en varios niveles de SDLC. El proceso evaluador se lleva a cabo en paralelo al desarrollo del software. Antes de lanzarnos a la siguiente etapa, la etapa se evalúa, valida y verifica.
+
+Evaluar de forma separada se hace para asegurar que no hay defectos escondidos o asuntos que se han dejado de lado en el software. El Software se evalúa en varios niveles -
+Evaluación unitaria
+
+Mientras se codifica, el programador hace algunos tests en esa unidad de programa para saber si está libre de errores. La evaluación se lleva a cabo con técnicas de caja blanca. La evaluación unitaria ayuda a los desarrolladores a decidir que las unidades del programa funcionan según los requisitos y están libres de errores.
+Pruebas de integración
+
+Aunque las unidades del software funcionen bien de forma individual, se necesita encontrar si las unidades que están integradas y juntas también funcionan sin errores. Por ejemplo, actualización de datos, etc.
+Evaluación del sistema
+
+El software se compila como producto y entonces se evalúa en su conjunto. Este proeso de cumple usando uno o más tests se los que se mencionan a continuación:
+
+    Evaluación funcional - Evalúa todas las funcionalidades del software en contraste a los requisitos.
+
+    Evaluación de la actuación - Este test nos informa de la eficiencia del software. Evalúa la efectividad y el tiempo medio que tarda el software en hacer las tareas deseadas. La evaluación de la actuación se realiza por medio de tests de carga y de estrés donde el software se pone bajo condiciones de alto usuario y carga de datos.
+
+    Seguridad y portabilidad - These tests are done when the software is meant to work on various platforms and accessed by number of persons.
+
+Tests de aceptación
+
+Cuando el software está listo para ser entregado al cliente tiene que pasar por la última fase de evaluación donde se comprobará su interacción cn el usuario y su capacidad de respuesta. Esto es importante porque aunque el software cumpla todos los requisitos del consumidor, si al usuario no le gusta su apariencia o su forma de funcionar, puede ser que acabe por ser rechazado.
+
+    Pruebas Alpha - El equipo de desarrolladores hacen la evaluación 'Alpha' usando el sistema como si ya se estuviera en un entorno de trabajo. Intentan así avriguar cómo reaccionaría el usuario a alguna acción del software, y cómo el sistema debe responder a entradas o inputs distintos.
+
+    Pruebas Beta - Una vez se ha evaluado el software internamente, es entregado a los usuarios para que lo utilicen en su contexto de producción, simplemente para poder evaluarlo. Este no es aún el producto entregado. Los desarrolladores esperan que el usuario en esta fase aporten problemas muy específicos, que podrían fácilmente pasarse por alto en el proceso de desarrollo.
+
+Puebas de regresión
+
+Cuando un producto software se actualiza con un nuevo código o con nuevas características o funcionalidades, se evalúa para detectar si hay algún impacto negativo con lo que se ha añadido. Este proceso se conoce como prueba de regresión.
+Documentación evaluativa
+
+Los tests se preparan en diferentes etapas -
+Antes de evaluar
+
+La pruebas empiezan con la generación de tests demo. Para ello se necesitan los siguientes documentos de referencia –
+
+    Documento ERS(especificación de requisitos de software) - Documento de requisitos funcionales
+
+    Documento de evaluación de normas - Describe la magnitud o alcance que deben tener las pruebas antes de lanzar el producto al mercado.
+
+    Documento evaluativo de estrategia - Menciona aspectos muy detallados del equipo de evaluación, matriz de responsabilidades y derechos/responsabilidad del jefe de evaluación y del ingeniero de evaluación.
+
+    Matriz de trazabilidad - Es un documento del SDLC, que se relaciona con el proceso de recogida de requisitos. A medida que aparecen nuevos requisitos, son añadidos a esta matriz. Estas matrices ayudan a los evaluadores a averiguar el origen del requiisto. Pueden ser delineados hacia adelante o hacia atrás.
+
+Mientras se evalúa
+
+Los siguientes documentos pueden requerirse mientras se está evaluando tanto al inicio como durante el poceso:
+
+    Documento del caso de prueba - Este documento cntiene una lista de tests que se deben realizar. Incluye un plan de evaluación unitario, un plan de evaluación integrado, un plan de evaluación del sistema y un plan de evaluación para su aceptación.
+
+    Descripción de la prueba - Este documento describe de forma minuciosa todos los ejemplos de test y procedimietos para llevarlos a cabo.
+
+    Informe del caso de prueba - Este documento contiene un informe de caso de prueba como resultado del test.
+
+    Test logarítmico - Este documento contiene un test logarítmico para cada informe de caso de prueba.
+
+Después de las pruebas
+
+Se pueden generar estos documentos después de las pruebas :
+
+    Sumario del Test - Este sumario es un análisis colectivo de todos los informes de test y accesos. Resume y concluye si el software está listo para ser lanzado al mercado. En caso positivo el software se pone en el mercado con una versión de sistema de control.
+
+Pruebas vs. Control de calidad, Aseguranza de calidad y Audit
+
+Necesitamos entender que la evaluación de software es diferente de la aseguranza de calidad de software, del control de calidad, y del auditing (evaluación).
+
+    Aseguranza de calidad del Software - Son técnicas de monitoreo para procesos de desarrollo software, con los cuales se asegura que las medidas se llevan a cbo siguiendo los estándares de la oganización. Este proceso se realiza para asegurar que se están siguiendo los métdos de desarrollo de software adecuados.
+
+    Control de calidad del Software - Es un sistema para mantener la calidad del producto software. Puede incluir aspectos funcionales y no funcionales del producto software, lo cual fomenta la reputación de la organización. Este sistema asegura que el cliente recibe un producto de calidad para sus requisitos y el producto es considerado conveniente para su uso.
+
+    Evaluación del Software (audit) - Es una revisión del procedimiento usado por la organización para desarrollar el software. Un equipo de 'auditors' (evaluadores) independientemente del equipo de desarrollo examinan el proceso software, procedimientos, requisitos y otros aspectos del SDLC. El objetivo de esta evaluación es comprobar que el software y su proceso de desarrollo, se ciñen a los estándars, normas y regulaciones.
+

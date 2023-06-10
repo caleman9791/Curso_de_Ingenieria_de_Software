@@ -1,14 +1,178 @@
-Software_Vision_General
-Software_Ciclo_de_Vida_de_Desarrollo
-Software_Gestion_del_Proyecto
-Software_Requisitos
-Software_Basicas_de_Diseno
-Herramientas_de_Analisis_y_de_Diseno
-Software_Estrategias_de_Diseno
-Software_Diseno_de_UI
-Software_Diseno_Complejidad
-Software_Implementacion
-Software_Vision_General_de_Pruebas
-Software_Mantenimiento
-Software_CASE_Herramientas
-Mejores_practicas_del_desarrollador
+
+tutorialspoint.com
+Software - DiseÃ±o Complejidad
+7–9 minutes
+
+El término de complejidad se refiere al estado de eventos o cosas, que tienen múltiple interconexiones y una estructura altamente complicada. En programación de software, a medida que el diseño de software es obtenido, el número de elementos y sus interconexiones gradualmente aparecen para ser mayores, lo que hace difiícil que se pueda entener en un solo intento.
+
+La complejidad del diseño de Software es difícil de evaluar sin usar complejos métodos de medida. Veamos pues 3 métodos de medida importantes para compejidades de software.
+Medidas de complejidad de Halstead
+
+En 1977, el Señor Maurice Howard Halstead introdujo sistemas de medida para medir la complejidad del software. Las medidas de Halstead dependen de la implementación real del programa y de sus medidas, las cuales son computadas directamente desde los operadores y operandos del código de origen, de forma estática. Permite evaluar el 'testing time', el vocabulario, la medida, dificultad, errores, y esfuerzos para códigos de origen C/C++/Java.
+
+Según Halstead, “Un programa de ordenador es una implementación de un algoritmo considerado una colección de símbolos que se pueden clasificar como operadores o como operandos”. Las medidas de Halstead toman al programa como una secuencia de operadores y sus operandos relacionados.
+
+Define varios indicadores para evaluar la cmplejidad del módulo.
+Parámetro 	Significado
+n1 	Número de un solo operador
+n2 	Número de un solo operando
+N1 	Número total de casos de operadores
+N2 	Número total de casos de operandos
+
+Cuando seleccinamos origen del archivo para ver sus detalles de complejidad en un Visor Métrico, se ven los siguentes resultados en el Informa Métrico:
+Metrico 	Significado 	Representación matemática
+n 	Vocabulario 	n1 + n2
+N 	medida 	N1 + N2
+V 	Volumen 	Longitud * Log2 Vocabulario
+D 	Dificultad 	(n1/2) * (N1/n2)
+E 	Esfuerzos 	Dificutad * Volumen
+B 	Errores 	Volumen / 3000
+T 	'Testing time' 	Tiempo = esfuerzos / S, donde S=18 segundos.
+Medidas de Complejidad ciclomática
+
+Cada programa incluye enunciados para ejecutar con tal de llevar a cabo una tarea y otros enunciados de toa de decisiones que deciden, qué órdenes son necesarias. Los enunciados de toma de decisiones cambian el flujo del programa.
+
+Si comparamos dos programas del mismo tamaño, el que tiene más enunciados de toma de decisiones será más complejo ya que el control de programa salta con frecuencia.
+
+McCabe, en 1976, propuso la edida de complejidad ciclomática para cuantificar la complejidad de un software. Es un modelo gráfico determinado que se basa en las órdenes de toma de decisiones del programa como el if-else, do-while, repeat-until, switch-case y goto statements.
+
+Proceso para realizar un gráfico de flujo de control:
+
+    Rompa el programa en pequeños bloques, delimitados por las tomas de decisiones.
+    Cree nódulos representando cada uno de estos nódulos.
+    Conecte los nódulos de la sigueinte forma:
+
+        Si el control se puede ramificar del bloque i al bloque j
+
+        Dibuje un arco
+
+        Desde el nódulo de salida hasta el nódulo de entrada
+
+        Dibuje un arco.
+
+Para calcular la complejidad ciclomática del núdulo de un programa, usaremos la fórmula -
+
+V(G) = e – n + 2
+
+Where
+e is total number of edges
+n is total number of nodes
+
+Medidas Complejidad ciclomática
+
+La complijidad ciclomática del módulo de encima es
+
+e = 10
+n = 8
+Cyclomatic Complexity = 10 - 8 + 2 = 4
+
+Según P. Jorgensen, la complejidad ciclomática de un módulo no debe ser mayor a 10.
+Métrica de punto función
+
+Es ampliamente usada para medir el tamaño del software. La Métrica de punto función, se centra en la funcionalidad que aporta el sistema. Las características y funcionalidades del sistema se usan para medir la complejidad del software.
+
+La Métrica de punto función, cuenta con cinco parámetros, llamados Entrada externo, Salida externa, Archivos de lógica interna, Archivos de interfaz externa, y Consulta externa. Para considerar la complejidad del software cada parámetro se categorizará como simple, medio o complejo.
+
+Punto de Función
+
+Veamos los parámetros de la métrica de punto de función:
+Entrada externa
+
+Cada entrada del sistema, desde fuera, se considera entrada externa. La singularidad de la entrada se mide, ya que dos entradas no deben tener el mismo formato. Estas entradas pueden ser o datos o parámetros de control.
+
+    Simple - Si una entrada es baja y afecta menos a los archivos internos
+
+    Complejo - Si una entrada es elevada y afecta más a los archivos internos
+
+    Medio - Estaria entre el simple y el complejo
+
+Salida externa
+
+Todos los tipos de salida que da el sistema forman parte de esta categoría. La salida se considera única si su formato de salida y/o su procesamiento son únicos.
+
+    Simple - Si la salida es baja
+
+    Compleja - Si la salida es alta
+
+    Media - Entre la simple y la compleja.
+
+Archivos de lógica interna
+
+Cada sistema de sofware mantiene archivos internos con tal de mantener su información funcional y para funcionar mejor. Estos archivos contienen datos lógicos del sistema. Estos datos lógicos pueden contener tanto datos funcionales como datos de control.
+
+    Simple - Si el número de tipos registrado es bajo
+
+    Complejo - Si el número de tipos registrado es alto
+
+    Medio - Entre el simple y el complejo.
+
+Archivos de interfaz externa
+
+El sistema de Software puede necesitar compartir sus archivos con otro software externo o quizá necesite pasar archivos para el procesamiento o como parámetro de alguna función. Todos estos archivos son considerados archivos de interfaz externa.
+
+    Simple - Si el número de tipos registrado en un archivo compartido es bajo
+
+    Complejo - Si el número de tipos registrado es alto
+
+    Medio - Entre el simple y el complejo.
+
+Consulta externa
+
+Una consulta es la combinación de una entrada y una salida, cuando el usuario envía algún dato para consultar como entrada y el sistema responde al usuario con una salida de consulta procesada. La complejidad de la consulta es más alta que la entrada externa y la salida externa. La consulta es única si sus entradas y salidas son también únicas en lo que se refiere al formato y a los datos.
+
+    Simple - Si la consulta necesita un procesamiento menor y produce un menor número de datos.
+
+    Complejo - Si la consulta neesita un procesamiento alto y produce una gran cantidad de salida de datos
+
+    Medio - Entre el simple y el complejo.
+
+A Cada uno de estos parámetros del sistema se les da un peso determinado dependiendo de su tipo y complejidad. La tabla de abajo menciona el peso dado a cada parámetro:
+Parámetro 	Simple 	Medio 	Complejo
+Entradass 	3 	4 	6
+Salidas 	4 	5 	7
+Consulta 	3 	4 	6
+Archivos 	7 	10 	15
+Interfaces 	5 	7 	10
+
+La tabla de encima produce Métrica de punto función pura. Esta se ajusta de acuerdo con la complejidad del entorno. El sistema se describe usando 14 características distintas:
+
+    Comunicación de datos
+    Computación distribuida
+    Objetivos de actuación
+    Funcionamiento de carga de Configuración
+    Tasa de la transacción
+    Entrada de datos Online
+    Eficiencia del consumidor final
+    Actualización online
+    Procesamiento complejo y lógico
+    Reutilización
+    Facilidad de Instalación
+    Facilidad operativa
+    Webs Múltiples
+    Intencionalidad para facilitar cambios
+
+Estos factores característicos se puntúan de 0 al 5, como se menciona a continuación:
+
+    Sin influencia
+    Adicional
+    Moderado
+    Medio
+    Significante
+    Essencial
+
+Todas ls puntuaciones se resumen como N. El valor de N va del 0 al 70 (14 tipos de características x 5 tipos de puntuaciones). Se usa para calcular los factores de ajuste de complejidad (CAF, en sus siglas en inglés para 'Complexity adjustment factor'), usando la siguiente fórmula:
+
+CAF = 0.65 + 0.01N
+
+Luego,
+
+Delivered Function Points (FP)= CAF x Raw FP
+
+Este FP puede usarse en varias medidas como por ejemplo:
+
+    Coste = $ / FP
+
+    Calidad = Errores / FP
+
+    Productividad = FP / persona-mes
+

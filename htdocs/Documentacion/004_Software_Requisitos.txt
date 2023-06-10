@@ -1,14 +1,249 @@
-Software_Vision_General
-Software_Ciclo_de_Vida_de_Desarrollo
-Software_Gestion_del_Proyecto
-Software_Requisitos
-Software_Basicas_de_Diseno
-Herramientas_de_Analisis_y_de_Diseno
-Software_Estrategias_de_Diseno
-Software_Diseno_de_UI
-Software_Diseno_Complejidad
-Software_Implementacion
-Software_Vision_General_de_Pruebas
-Software_Mantenimiento
-Software_CASE_Herramientas
-Mejores_practicas_del_desarrollador
+
+tutorialspoint.com
+Software - Requisitos
+13–17 minutes
+
+Los requisitos software son la descripción de las características y las funcionalidades del sistema 'target'. Los requisitos nos comunican las expectativas de los consumidores de productos software. Los requisitos pueden ser obvios o estar ocultos, conocidos o desconocidos, esperados o inesperados, des del punto de vista del cliente.
+Ingeniería de requisitos
+
+El proceso de recogida de información, análisis y documentación sobre los requisitos software des del cliente, se conoce como ingeniería de requisitos.
+
+El objetivo de este tipo de Ingeniería es el de desarrollar y mantener un documento de especificación de requisitos del sistema de forma sofisticada y descriptiva.
+Proceso de la Ingeniería de requisitos
+
+Es un proceso que consta de cuatro pasos –
+
+    Estudio de viabilidad
+    Recogida de requisitos
+    Requisitos del Software
+    Validación de los requisitos de Software
+
+Veamos el proceso de manera breve -
+Estudio de viabilidad
+
+Cuando el cliente se acerca a la organización para obtener el producto deseado desarrollado, expone una idea aproximada de las funciones que el sofware debe cumplir y qué características se esperan del software.
+
+Refiriéndose a esta información, los analistas elaboran un estudio detallado sobre la viabilidad del sistema deseado y de sus funcionalidades, para proceder a desarrollarlo.
+
+Este estudio de viabilidad se centra en el objetivo de la organización. El estudio analiza la materialización práctica del producto software respecto a su implementación, la contribución de proyecto a la organización, los límites de costes, y según los objetivos y valores de la organización. Explora aspectos técnicos del proyecto y del producto, como la utilidad, el mantenimiento, la productividad y la capacidad de integración.
+
+El resultado o output de esta fase debe ser un informe del estudio de viabilidad, conteniendo comentarios adecuados y recomendaciones para la gestión sobre si se debe tirar adelante o no el proyecto.
+Recogida de requisitos
+
+Si el informe de viabilidad es positivo en relación a tomar el proyecto, la siguiente fase empieza con la recolección de requisitos por parte del consumidor. Analistas e Ingenieros se comunican con el cliente y los consumidores para conocer sus ideas sobre qué debe aportar el software y qué características quieren que incluya éste.
+Requisitos del Software
+
+El SRS es un documento creado por los analistas de sistema después de recoger los requisitos.
+
+El SRS define cómo va a interactuar el sofware que quiere crearse con el hardware, las interfaces externas, la velocidad operativa, el tiempo de respuesta del sistema, la portabilidad del software en las diversas plataformas, el mantenimiento, la velocidad de reponerse después de estropearse, su seguridad, calidad, limitaciones, etc.
+
+Los requisitos recibidos por parte del cliente se escriben en lenguaje natural. Es responsabilidad del analista de sistemas documentar sobre los requisitos en lenguaje tecnológico para que puedan ser útiles y comprendidos por el equipo de desarrollo de software.
+
+El SRS debe venir con las siguientes características:
+
+    Los requisitos del usuario se deben expresar en lenguaje natural.
+    Los requisitos técnicos se deben expresar en lenguaje estructurado, el cual se usará dentro de la organización.
+    La descripción del diseño se debe escribir en pseudocódigo.
+    El formato de Forms y GUI impresiones de pantalla.
+    Anotaciones condicionales y matemáticas para DFDs etc.
+
+Validación de los requisitos de Software
+
+Después del desarrollo de los requisitos, los que se mencionen en este documeno serán válidados. El usuario puede que pida soluciones ilegales y poco prácticas, y los expertos puede que interpreten los requisitos de forma incorrecta. Estos resultados se incrementan en coste si no se cortan de raíz. Los requisitos se pueden evaluar en contraste con las siguientes condiciones -
+
+    Si pueden ser implementados de manera práctica.
+    Si son válidos a nivel de funcionalidad y dominio del software
+    Si hay alguna ambiguedad
+    Si se han completado
+    Si se pueden demostrar
+
+Proceso de educción de requisitos
+
+El Proceso de educción de requisitos se puede representar usando el siguiente diagrama:
+
+Proceso de obtención Requisito
+
+    Recogida de requisitos - Los desarrolladores hablan con el cliente y los consumidores finales para conocer sus expectativas respecto al software.
+
+    Organizar requisitos - Los desarrolladores priorizan y organizan los requisitos en orden de importancia, urgencia, y conveniencia.
+
+    Negociación y debate - Si los requisitos son ambiguos o hay algún conflicto en los requisitos de varios accionistas, hay una negociación y un debate con ellos. Los requisitos entonces, se priorizan y se acuerdan de manera razonable.
+
+    Los requisitos vienen de varios accionistas. Para eliminar cualquier ambiguedad o conflicto, se debate para encontrar claredad y correción. Los requisitos surrealistas se acuerdan de forma razonable.
+
+    Documentación - Los requisitos formales y no formales, funcionales y no funcionales, son documentados y se ponen disponibles para procesar en la siguiente fase.
+
+Técnicas de educción de requisitos
+
+Las educción de requisitos es un proceso para encontrar los requisitos para un sistema de software que se intenta desarrollar, usando la comunicació con el cliente, los consumidores finales, usuarios del sistema y otros que tienen algún papel en el desarrollo del sistema de software.
+
+Hay varios caminos para descubrir requisitos
+Entrevistas
+
+La entrevistas son medios de recogida de requisitos medianamente fuertes. La organización puede conducir muchos tipos de entrevistas, tales como:
+
+    Entrevistas estructuradas (cerradas), donde cada información que se recoge es decidida con antelación, siguen patrones y temas de debate de forma firme.
+
+    Las entrevistas no estructuradas (abiertas), donde la información que se busca no se decide con antelación, es más flexible y menos tendenciosa.
+
+    Entrevistas orales
+
+    Entrevistas por escrito
+
+    Entrevistas cara a cara entre 2 personas
+
+    Entrevistas de grupo que se llevan a cabo entre grupos de participantes. Ayudan a destapar cualquier requisito que falte, ya que mucha gente está incluída.
+
+Encuestas
+
+La organización puede conducir encuestas o sondeos entre varios accionistas pidiendo sus expectativas y requisitos para el sistema que se va a desarrollar.
+Cuestionarios
+
+Un documento con preguntas objetivas definidas previamente con sus opciones respectivas. Se entrega a todos los accionistas para que las respondan, se recogen y se recopilan.
+
+Una limitación de esta técnica es que si una opción por algún asunto no se menciona en el cuestionario, el asunto puede quedar desatendido.
+Análisis de tareas
+
+El equipo de ingenieros y de desarrolladores puede analizar la operación por la cual se requiere el nuevo sistema. Si el cliente ya tiene algún software para realizar ciertas operaciones, se estudia y los requisitos del sistema propuesto se recogen.
+Análisis de dominio
+
+Cada software pertenece a una categorís de dominio. Los expertos en dominio pueden ser de gran ayuda para analizar requisitos generales y específicos.
+Lluvia de ideas
+
+Un debate informal se lleva a cabo entre varios accionistas y todos los inputs o entradas se graban para el análisis de requisitos posterior.
+Modelo de prototipos
+
+Se basa en construir interfaces de usuario sin añadir detalles de las funcionalidades para que el usuario interprete las características del producto software que se quiere desarrollar. Ayuda aportando una mejor idea de los requisitos. Si el consumidor final no tiene el software instalado para que el desarrolador lo tome como referencia y el cliente no sabe cuáls son sus propios requisitos, el desarrollador crea un prototipo basado en los requisitos mencionados al inicio. El prototipo se muestra al cliente y el feedback que se obtiene se registra. El feedback del cliente sirve d input o entrada para la recogida de requisitos.
+Observación
+
+El equipo de expertos visita la organización o el lugar de trabajo de los clientes. Observan el funcionamiento de los sistemas instalados ya existentes. También observan el flujo de trabajo y cómo se tratan los problemas de ejecución. El equipo traza las conclusiones que ayudan a formar los requisitos esperados para el software.
+Carcaterísticas de los requisitos del Software
+
+La recogida de requisitos de sofware es la fundación de la totalidad del proyecto de desarrollo software. Por ello, debe de ser clara, correcta y bien definida.
+
+Una completa especificación de requisitos Software debe ser:
+
+    Clara
+    Correcta
+    Consistente
+    Coherente
+    Comprensible
+    Modificable
+    Verificable
+    Priorizada
+    sin ambiguedades
+    Trazable
+    Origen creíble
+
+Requisitos de Software
+
+Debemos intentar entender qué tipo de requisitos pueden aparecer en la fase de educción de requisitos y qué tipo de requisitos se esperan del sistema de software.
+
+En líneas generales los requisitos de software se deben caracterizar en dos categorías:
+Requisitos funcionales
+
+Requisitos que se relacionan a aspectos funcionales del software irían en esta categoría.
+
+Definen las funciones y la funcionalidad en y desde el sistema de software.
+Ejemplos -
+
+    Buscar una opción dada al usuario para buscar desde varias facturas.
+
+    El usuario debe ser capaz de enviar por correo electrónico cualquier informe a la Dirección.
+
+    Los usuarios se pueden dividir en grupos y los grupos pueden tener derechos diferentes.
+
+    Debe cumplir reglas empresariales y funciones administrativas.
+
+    El Software se desarrolla manteniendo intacta la compatibilidad en descenso.
+
+Requisitos no funcionales
+
+Los requisitos, los cuales no están relacionados con aspectos funcionales del software, están en esta categoría. Son características del software implícitas o esperadas, asumidas por los usuarios.
+
+Los requisitos no funcionales incluyen -
+
+    Seguridad
+    Acceso
+    Almacenaje
+    Configuración
+    Actuación
+    Coste
+    Interoperabilidad
+    Flexibilidad
+    Recuperación de desatre
+    Accessibilidad
+
+Los requisitos se categorizan de forma lógica como
+
+    Tienen que tener : El Software no puede ser operacional sin ellos.
+
+    Deben tener : Motivando la funcionalidad del software.
+
+    Pueden tener : El Software aún puede funcionar bien con estos requisitos.
+
+    Lista de deseo : Estos requisitos no contienen ningún objetivo de software.
+
+Mientras se desarrolla el software, el ‘tiene que tener’ se debe implementar, el ‘debe tener’ es un asunto de debate y negociación, en cambio el ‘puede tener’ y la ‘lita de deseo’ se pueden mantener para futuras actualizaciones del software.
+Requisitos de la interfaz de usuario
+
+La UI es uan parte importante de cualquier software, hardware o sistema híbrido. Un software es ampliamente aceptado si es -
+
+    Fácil de manejar
+    rápido en responder
+    efectivo tratando errores operacionales
+    aportando interfaces de usuario simples y consistentes
+
+La aceptación del usuario mayormente depende de cómo éste pueda usar el software. La UI es el único camino para percibir el sistema por parte de los usuarios. Un sistema software de buena actuación también debe estar equipado con interfaces de usuario atractivas, claras, consistentes y receptivas. En caso contrario las funcionalidades del sistema softwar no pueden usarse de una manera conveniente. A system is said be good if it provides means to use it efficiently. User interface requirements are briefly mentioned below -
+
+    Presentación de contenido
+    De fácil navegación
+    Interfaces simples
+    Receptivo
+    Elementos consistentes de UI
+    Mecanismo de retroalimientación
+    Configuración Default
+    Disposición significante
+    Uso estratégico del color y la textura.
+    Aportar información de ayuda
+    Aproximación centrada en el usuario
+    Vista de la configuración basada en el grupo.
+
+Analista de sistemas Software
+
+El analista de sistemas es una persona de una organización informática, que analiza los requisitos del sistema propuesto y asegura que los requisitos sean concebidos y documentados correctamente. El papel del analista empieza durante la fase del SDLC de análisis del Software. El analista tiene la responsabilidad de asegurar que el software que se desarrolle cumpla los requisitos del cliente.
+
+Los analista de sistemas tienen las siguientes responsabilidades:
+
+    Analizar y entender los requisitos del software deseado
+    Entender cómo será la contribución del proyecto en los objetivos de la organización
+    Identificar el origen de los requisitos
+    Validación de requisitos
+    Desarrollo e implementación el plan de gestión de requisitos
+    Documentación empresarial, técnica, de proceso, y requisitos del producto.
+    Coordinación con los clientes para priorizar requisitos y eliminar ambiguedad
+    Terminar la aceptación de criterios con el cliente y otros accionistas
+
+Métricas y medidas de Software
+
+Las medidas de Software se pueden entender como un proceso para cuantificar y simbolizar varios atributos y aspectos del software.
+
+Las métricas de Software aportan medidads para varios aspectos del proceso y del producto software.
+
+Las medidads de Software son requisitos fundamentales de la ingeniería de software. No solamente ayudan a controlar el desarrollo del proceso software sino que también contribuyen a mantener la calidad del producto final excelente.
+
+Según Tom DeMarco, un ingeniero de Software, “No se puede controlar lo que no se puede medir.” Con esta frase, deja muy clara la gran importancia de las medidas de software.
+
+Veamos algunas métricas de software:
+
+    Métrica de tamaño - Las LOC (Líneas de código), se calculan mayoritariamente en miles de líneas de código de origen entregadas, llamado KLOC.
+
+    La medida del punto de función, se focaliza en la funcionalidad aportada por el software. La medida del punto del función define el tamaño de los aspectos funcionales del software.
+    Métrica de complejidad - La complejidad ciclomática de McCabe cuantifica el nivel más alto en cuanto al número de caminos independientes en un programa, lo que se percibe como complejidad del programa o de sus módulos. Se representa siguiendo los conceptos de teoría gráfica usando gráficos de flujo de control.
+
+    Métrica de calidad - Defectos, tipos y causas, consecuencias, intensidad en la severidad y sus implicaciones definen la calidad del producto.
+
+    El número de defectos encontrados en el proceso de desarrollo y el número de defectos encontrados por el cliente después de la instalación o entrega al consumidor final, define la calidad del producto.
+    Métrica de Proceso - En varias fases del SDLC, los métodos y herramientas usados, los estándares y la actuación de desarrollo de la compañía, son métrica de procesos software.
+    Métrica de recursos - El esfuerzo, el tiempo y varios recursos usados, representan la métrica para la medidad de recursos.
+

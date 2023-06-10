@@ -1,14 +1,264 @@
-Software_Vision_General
-Software_Ciclo_de_Vida_de_Desarrollo
-Software_Gestion_del_Proyecto
-Software_Requisitos
-Software_Basicas_de_Diseno
-Herramientas_de_Analisis_y_de_Diseno
-Software_Estrategias_de_Diseno
-Software_Diseno_de_UI
-Software_Diseno_Complejidad
-Software_Implementacion
-Software_Vision_General_de_Pruebas
-Software_Mantenimiento
-Software_CASE_Herramientas
-Mejores_practicas_del_desarrollador
+
+tutorialspoint.com
+Software - GestiÃ³n del Proyecto
+17–22 minutes
+
+El patrón de trabajo de cualquier compañía informática relacionado con el desarrollo software se puede dividir en dos partes:
+
+    Creación Software
+    Gestión del proyecto Software
+
+Un proyecto es una tarea bien definida, que constituye uan colección de muchas operaciones realizadas con tal de lograr un objetivo concreto (Por ejemplo, desarrollo software y entrega). Un proyecto se puede caracterizar como:
+
+    Cada proyecto debe tener un objetivo único y distintivo.
+    Proyecto no significa actividad rutinaria o operaciones diarias.
+    El proyecto viene con un tiempo inicial y un tiempo final.
+    El proyecto termina cuando se logra el objetivo deseado, por tanto, es una fase temporal de la organización.
+    El proyecto necesita recursos adecuados en lo que se refiere al tiempo, mano de obra, finanzas, material, etc.
+
+Proyecto Software
+
+Un proyecto software es todo el procedimiento del desarrollo de software, desde la recogida de requisitos, pasando por las pruebas y el mantenimiento, y llevado a cabo en acorde a las metodologías de ejecución, en un momento concreto en el tiempo para lograr el producto software deseado.
+Necesidad de la gestión del proyecto software
+
+Se dice que el software es un producto no tangible. El desarrollo Software contiene aspectos de todas las corrientes del mundo de los negocios pero tiene poca experiencia en construir productos software. La mayor parte de los productos software se diseñan para satisfacer las necesidades de los clientes. Lo más importante es que la tecnología subyacente cambia y avanza tan frecuente y rápidamente que la experiencia de un producto quizá no se pueda aplicar a otro. Todo este tipo de negocios y limitaciones del entorno traen con ellos riesgo en el desarrollo del software, por eso es esencial gestionar los proyectos software de manera eficiente.
+Time_Cost_Quality
+
+La imagen de arriba muestra las limitaciones triples para los proyectos software. Es una parte esencial de la organización del software entregar un producto de calidad, manteniendo el coste dentro de las limitaciones del presupuesto del cliente y entregar el proyecto a tiempo. Hay muchos factores, internos y externos, que pueden causar un impacto en este triángulo de triples limitaciones. Cada uno de los 3 factores puede causar un impacto en los otros dos de forma grave.
+
+Por tanto, la gestión del proyecto software debe incorporar los requisitos del usuario junto con el presupuesto y las limitaciones de temporales.
+Gestión del proyecto Software
+
+El directivo de un proyecto software es la persona que se responsabiliza de la ejecución del proyecto software. Debe estar al tanto y seguir todas las fases del SDLC por las que el software pasará. Puede que no se implique de forma directa en la producción del producto final, pero si que controla y dirige las actividades incluidas en esta fase.
+
+El Director del proyecto sigue de cerca el proceso de desarrollo, prepara y ejecuta varios planes, organiza los recursos adecuados y necesarios, se mantiene comunicado con todos los miembros del equipo con tal de dirigir asuntos de costes, presupuesto, recursos, tiempo, calidad, y satisfacción del cliente.
+
+Veamos algunas de las responsabilidades que el Director de un proyecto asume.-
+Gestión de personas
+
+    Actuar como líder del proyecto
+    Intermediar con accionistas
+    Gestionar los recursos humanos
+    Armar informes de jerarquía, etc.
+
+Gestión del Proyecto
+
+    Definir y armar el alcance del proyecto
+    Gestionar las actividades de gestión del proyecto
+    Seguimiento de la actuación y del progreso
+    Análisis de riesgos en cada fase
+    Tomar la iniciativa para evitar o salir de problemas
+    Actuar como representante del proyecto
+
+Actividades de la gestión de Software
+
+La gestión del proyecto Software comprende un gran número de actividades, que contienen la planificación del proyecto, decidir el alcance del producto software, estimar el coste respecto a la temporalización de tareas y eventos, y la gestión de los recursos. La actividades de gestión del proyecto pueden incluir:
+
+    Planificación del proyecto
+    Gestión del alcance
+    Estimación del proyecto
+
+Planificación del proyecto
+
+La planificación del proyecto Software es una tarea que se realiza antes de la producción del software empiece. Está ahí para la producción de software pero no implica una actividad concreta que tenga una conexión directa con la producción de software; más bien es un conjunto de procesos, que facilitan la producción de software. La planificación del proyecto puede incluir:
+Gestión del alcance
+
+Define el alcance de un proyecto; esto incluye todas las actividades y procesos que se requieren para crear un producto software distribuible. La gestión del alcance es esencial porque crea condiciones del proyecto por medio de la definición de lo que se debe realizar en el proyecto y lo que no. Esto hace que el proyecto contenga tareas limitadas y cuantificables, con lo que puede ser documentado fácilmente y por tanto evitar costes y tiempo excedidos.
+
+Durante la gestión del alcance del proyecto, es necesario -
+
+    Definir el alcance
+    Decidir su verificación y control
+    Dividir el proyecto en pequeñas partes para facilitar su gestión.
+    Verificar el alcance
+    Controlar el alcance incorporando cambios a éste
+
+Estimación del proyecto
+
+Para una gestión efectiva, es necesario que se realice una estimación acurada de varias medidas. Los Directores pueden gestionar y controlar el proyecto de forma más eficiente y efectiva haciendo estimaciones correctas.
+
+La estimación del proyecto puede incluir los siguientes aspectos:
+
+    Estimación del tamaño del Software
+
+    El tamaño del Software se puede estimar en KLOC (Kilo Línea de código) o calculando el número de puntos de función en el software. La líneas de código dependen de las prácticas de codificación y los puntos de función, que cambian según el usuario o los requisitos del software.
+    Estimación del esfuerzo
+
+    Los directores estiman los esfuerzos en términos de requisitos de personal y las horas de trabajo requeridas para producir el software. Para la estimación de esfuerzos se debe conocer el tamaño del software. Esto lo pueden aportar la experiencia misma de los directores, los datos históricos de la organización, o el tamaño del software se puede convertir en esfuerzos usando alguna formulación estándar.
+    Estimación del tiempo
+
+    Una vez el tamaño y los esfuerzos se han estimado, podemos proceder a estimar el tiempo que requeriremos para producir el software. Los esfuerzos requeridos se dividen en categorías según los requisitos del sistema y la interdependencia de varios componentes del software. Las tareas del Software se dividen en pequeñas tareas, actividades o eventos por la 'Work Breakthrough Structure(WBS)' en español 'Estructura de descomposición del trabajo'. Las tareas se temporalizan diariamente o en los meses del calendario.
+
+    La suma del tiempo requerido para completar todas las tareas en horas o días es el tiempo total que se invierte para terminar el proyecto.
+    Estimación del coste
+
+    Este debe de ser considerado como el más difícil de todos porque depende de más elementos que los anteriormente mencionados. Para estimar el coste de un proyecto, se requiere considerar -
+        El tamaño del software
+        La calidad del Software
+        El Hardware
+        Herramientas o software adicional, licencias, etc.
+        Personal formado para tareas concretas
+        Implicaciones de viaje
+        Communicación
+        Formación y soporte
+
+Técnicas de estimación del proyecto
+
+Ya hemos hablado de los parámetros en la estimación del proyecto, como el tamaño, esfuerzo, tiempo y costes.
+
+El director puede estimar los factores mencionados usando 2 técnicas ampliamente reconocidas –
+Técnica de descomposición
+
+Esta técnica toma el software como un producto de varias composiciones.
+
+Hay dos modelos fundamentales -
+
+    Línea de código La estimación se realiza en representación al número de línea de códigos en el producto software.
+    Puntos de función La estimación se realiza en representación al número de puntos de función que hay en el producto software.
+
+Técnica de estimación empírica
+
+Esta técnica usa fórmulas empíricamente derivadas para hacer estimaciones. Estas fórmulas se basan en LOC (línea de control) o FPs (lenguajes de programación).
+
+    Modelo Putnam
+
+    Este modelo hecho por Lawrence H. Putnam, que se basa en la distribución de frecuencia de Norden ('Rayleigh curve'). El modelo Putnam dibuja el mapa de esfuerzos y tiempo que se requiere para el tamaño del software.
+    COCOMO
+
+    COCOMO significa 'COnstructive COst MOdel' (Modelo de coste constructivo), desarrollado por Barry W. Boehm. Divide el producto software en 3 categorías de software: orgánica, semi-independiente y incrustado.
+
+Temporalización del proyecto
+
+La Temporalización del proyecto se refiere al mapa de actividades a realizar en un orden concreto y con un tiempo adjudicado para cada una de ellas. Los jefes del proyecto tienden a definir varias tareas, y proyectos 'milestones' para luego organizar y mantener varios factores en mente. Buscan tareas que van por un camino crítico en la temporalización, y que necesitan completarse de una forma determinada (a cause de la interdependencia de tareas) y estrictamente en el tiempo adjudicado. La organización de tareas, la cual se mantiene fuera de un camino crítico tienen menos posibilidades de causar un impacto sobre toda la temporalización del proyecto.
+
+Para temporalizar un proyecto, es necesario -
+
+    Partir el proyecto en tareas pequeñas, dirigibles desde
+    buscar varias tareas y relacionarlas entre ellas
+    Estimar el marco requerido para cada tarea
+    Dividir el tiempo en unidades de trabajo
+    Asignar un adecuado número de unidades de trabajo a cada tarea
+    Calcular el tiempo total requerido des del inicio hasta el final del proyecto
+
+Gestión de recursos
+
+Todos los elementos usados para desarrollar el producto software se pueden tomar como recursos para ese proyecto. Esto puede incluir recursos humanos, herramientas productivas y bibliotecas software.
+
+Los recursos están disponibles en cantidades limitadas y se quedan en la organización como una piscina de ponederaciones. La falta de recursos obstaculiza el desarrollo del proyecto y puede demorar la temporalización prevista. Distribuir recursos adicionales aumenta el desarrollo del coste al final. Por esose hace necesario estimar y distribuir los recursos adecuados para el proyecto.
+
+La gestión de los recursos incluye -
+
+    Definir la organización del proyecto satisfactoriamente creando un equipo de proyecto y distribuyendo las responsabilidades a cada uno de los miembros de éste.
+
+    Determinar los recursos requeridos para cada fase concreta y su disponibilidad
+
+    Gestionar recursos generando recursos cuando se requieren y retirarlos cuando ya no son necesarios.
+
+Gestión de riesgo del proyecto
+
+La gestión del riesgo incluye todas las actividades pertenecientes a la identificación, analizando y haciendo provisiones para riesgos predecibles o no predecibles en el proyecto. El riesgo puede incluir lo siguiente:
+
+    El personal con experiencia que deja el proyecto y el nuevo persoanl que entra.
+    Cambio en la gestión organizativa.
+    Cambios requeridos o requisitos mal interpretados.
+    Estimación baja de tiempo y recursos requeridos.
+    Cambios tecnológicos y de entorno, y competición empresarial.
+
+Proceso de gestión de riesgos
+
+Hay varias actividades en el proceso de gestión de riesgos:
+
+    Identificación - Anota todos los riesgos posibles, que pueden ocurrir en el proyecto.
+
+    Categorizar - Categorizar riesgos ya conocidos en riesgo de intensidad alta, media y baja, según el posible impacto que puedan tener en el proyecto.
+
+    Gestionar - Analizar la probabilidad de ocurrencia de riesgos en las distintas fasese. Planificar para evitar o tener que afrontar riesgos. Intentar minimizar sus efectos secundarios.
+
+    Monitorear - Hacer un seguimiento de cerca de los riesgos potenciales y de sus síntomas iniciales. También monitorear los efectos de los pasos que se han seguido para mitigarlos o evitarlos.
+
+Ejecución del proyecto & Monitoreo
+
+En esta fase, las tareas descritas en los planes el proyecto se ejecutan de acuerdo con su temporalización correspondiente.
+
+La ejecución necesita monitoreo con tal de evaluar si todo está yendo de acuerdo con el plan. Monitorizar es observar y evaluar la probabilidad de riesgo, y tomar medidas para redirigir el riesgo o informar del estatus de varias tareas.
+
+Estas medidas incluyen -
+
+    Actividades de monitoreo - Todas las actividades programadas en una tarea se pueden monitorear a diario. Cuando todas las actividades de una tarea se completan, se considera completo.
+
+    Informes de estatus - Los informes contienen estatus de actividades y tareas completadas en un marco temporal, generalmente en una semana. El estatus puede marcarse como finalizado, pendiente, en progreso, etc.
+
+    Lista de verificación 'Milestones' - Cada proyecto se divide en varias fases donde la mayoría de las tareas se performan (milestones) en base a las fases del SDLC. Esta lista de verificación milestone se prepara un par de veces al mes aproimadamente y se emite el estatus de milestones.
+
+Gestón comunicativa del proyecto
+
+Una comunicación efectiva juega un rol vital en el proceso de un proyecto. Crea vacíos en las conexiones entre el cliente y la organización, entre los miembros del equipo así como con los proveedores de hardware, etc.
+
+La comunicación puede ser oral o por escrito. La gestión comunicativa puede contener los siguientes pasos procedimentales:
+
+    Planificación - Este paso incluye la identificación de los accionistas, y la forma en que se van a comunicar entre ellos. También considera si se requiere alguna facilidad comunicativa adicional.
+
+    Compartir - Después de determinar varios aspectos de la planificación, el director se centra en compartir información correcta con la persona correcta y en el momento correcto en el tiempo. Esto mantiene a todos los miembros del proyecto al día del progreso y del estatus del proceso.
+
+    Retroalimentación - Los jefes del proyecto usan varias medidas y mecanismos de retroalimentación y crean informes de estatus y de acción. Este mecanismo asegura que la entrada desde varios accionistas llega al jefe del proyecto como su retroalimentación.
+
+    Cierre - Al final de cada evento mayor, de cada fase del SDLC o del proyecto mismo, se anuncia el cierre administrativo para actualizar a cada accionista via email, o distribuyendo una copia por escrito del documento o a través de otro medio de comunicación efectivo.
+
+Después del cierre, el equipo pasa a la siguiente fase o proyecto.
+Gestión de la configuración
+
+La gestión de la configuración es un proceso de seguimiento y control de cambios en el software en términos de requisitos, diseño, funciones y desarrollo del producto.
+
+El IEEE la define como un proceso de identificación y definición d los elementos del sistema, controlando los cambios en éstos a través de su ciclo vital, grabando e informando del estatus de cada uno de ellos, de sus peticiones de cambio, y verificando si están completos y correctos.
+
+Generalmente, una vez que el SRS(especificación de requisitos de software) se termina, hay menos posibilidades de que cambien los requisitos del usuario. Si ocurren, los cambios son dirigidos con aprovación previa a los altos directivos, ya que puede haber una posible demora en costes y tiempo.
+Línea de Base
+
+Una fase del SDLC se considera completa si se hace la línea base de este, esto es, la línea de base es una medida que define el fin de una fase. La fase se completa cuando todas las actividades pertenecientes a ésta se han terminado y documentado satisfactoriamnte. S no fuera la fase final, su resultado o output se usaría en la siguiente fase.
+
+La gestión de la configuración es una disciplina de organización administrativa, que se ocupa de la ocurrencia de cualquier cambio (proceso, requisito, technológico, estratégico, etc.) cuando la fase ya se ha 'baselined'. La gestión de la configuración evalúa los cambios realizados en el software.
+Control de cambios
+
+El control de cambios e suna función de gestión de la configuración, la cual asegura que todos los cambios realizados al sistema software son consistentes y se han hecho siguiendo regulaciones y normas de organización.
+
+Un cambio en la configuración del producto pasa por los siguientes pasos -
+
+    Identificación - La solicutud de un cambio llega desde fuentes internas o externas. Cuando la solicitud de cambio se identifica de manera formal, está documentada correctamente.
+
+    Validación - La validez de la solicitud de cambio es evaluada y su procedimiento para llevarla a cabo se confirma.
+
+    Análisis - El impacto de una solicitud de cambio se analiza en términos de temporalización, costes, y esfuerzos requeridos. El impacto general de los posibles futuros cambios en el sistema es analizado.
+
+    Control - Si los cambios esperados crean un impacto en demasiadas entidades del sistema o son inevitables, es obligatorio tener la aprovación de altas autoridades antes que el cambio se incorpore en el sistema. Se decide si vale la pena incorporar el cambio o no. Si es que no, la solicitud de cambio se rechaza formalmente.
+
+    Ejecución - Si la fase previa determina ejecutar la solicitud de cambio, esta fase toma las acciones apropiadas para ejecutar los cambios, y hace una revisión general si fuera necesario.
+
+    Cierre de la solicitud - El cambio es verificado por su corecta implementación y combinación con el resto del sistema. El nuevo cambio incorporado en el software se documenta y luego se cierra formalmente la solicitud.
+
+Herramientas de gestión del proyecto
+
+El riesgo y la incertidumbre crecen de forma múltiple en respecto al tamaño del proyecto, Aún y cuando el proyecto se dearrolla según el conjunto de metodologías.
+
+Hay herramientas disponibles, que contribuyen a al gestión efectiva del proyecto. Algunas son descritas a continuación -
+Gráfico Gantt
+
+Los gráficos Gantt fueron concebidos por Henry Gantt(1917). Representan la temporalización del proyecto respecto a los periodos de tiempo. Es un gráfico de barras horizontal que representa las actividades y la temporalización para éstas en el proyecto.
+
+Diagrama de Gantt
+Gráfico PERT
+
+El diagrama PERT (Técnicas de Revisión y & Evaluación de Proyectos) es una herramienta que representa el proyecto como un diagrama de red. Es capaz de representar de forma gráfica eventos principales del proyecto de forma paralela y consecutiva. Los eventos, que se dan uno tras otro, muestran dependencia con el evento más reciente por encima del previo.
+
+Diagrama PERT
+
+Los eventos se muestran en número de nódulos. Se conectan con flechas etiquetadas representando la secuencia de tareas en el proyecto.
+Histograma de recursos
+
+Es una herramienta gráfica que contiene un esquema representando el número de recursos (normalmente personal formado) requeridos conforme avanza el tiempo para el evento de un proyecto o fase. El histograma de recursos es uan herremienta efectiva para el personal de planificación y de coordinación.
+
+Tabla histogramas Histogramas Gráfico
+Análisis de la ruta crítica o del camino crítico
+
+Esta herramienta es útil para reconocer tareas interdependientes en el proyecto. También contribuye a encontrar el camino más corto para completar el proyecto con éxito. Como los diagramas PERT, a cada evento se le adjudica un marco temporal. Esta herramienta muestra dependencia de evento asumiendo que un evento puede proceder al siguiente solamente si el previo a éste se ha completado.
+
+Los eventos se organizan en acorde según el tiempo de inicio más temprano posible. El camino entre en inicio y el nódulo es el camino crítico, el cual no puede reducirse en un futuro en todos los eventos, necesita ser ejecutado en el mismo orden.

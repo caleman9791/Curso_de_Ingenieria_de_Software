@@ -1,14 +1,149 @@
-Software_Vision_General
-Software_Ciclo_de_Vida_de_Desarrollo
-Software_Gestion_del_Proyecto
-Software_Requisitos
-Software_Basicas_de_Diseno
-Herramientas_de_Analisis_y_de_Diseno
-Software_Estrategias_de_Diseno
-Software_Diseno_de_UI
-Software_Diseno_Complejidad
-Software_Implementacion
-Software_Vision_General_de_Pruebas
-Software_Mantenimiento
-Software_CASE_Herramientas
-Mejores_practicas_del_desarrollador
+
+tutorialspoint.com
+Software - VisiÃ³n General
+8–11 minutes
+
+Para empezar entendamos a qué se refiere el concepto de Ingeniería de software. El término consta de dos palabras, software e ingeniería.
+
+Software es mucho más que un código de programa. Un programa es un código ejecutable, usado para propósitos computacionales. El Software se considera una colección de códigos ejecutables de programación, associada a las bibliotecas y a la documentación. El Software, cuando se ha hecho para cubrir requisitos específicos se llama producto software.
+
+Ingeniería Por otro lado, trata de desarrollar productos, utilizando métodos y principios científicos bien definidos.
+
+Ingeniería del Software
+
+La ingeniería de Software es una rama de la ingeniería asociada al desarrollo del producto software que usa métodos, principios y procedimientos científicos. El resultado de la Ingeniería de software es un producto software eficiente y de confianza.
+Definiciones
+
+El IEEE (Instituto de Ingeniería Eléctrica y Electrónica) define la Ingeniería de software como:
+
+    (1) La aplicación de una aproximación sistemática, disciplinada y cuantificable, al desarrollo, las operaciones y al mantenimiento del software; Esto es básicamente la aplicación de la Ingeniería al software.
+
+    (2) El estudio de la aproximación, tal y como se ha mencionado anteriormente.
+
+Fritz Bauer, un informático teórico alemán, define Ingeniería de software como:
+
+    La ingeniería de Software es el establecimiento y uso de los principios de la Ingeniería de sonido con tal de obtener software fiable y eficiante en máquinas reales de forma económica.
+
+Evolución del Software
+
+El proceso de desarrollo de un producto software usando principios y métodos de Ingeniería de software, se denomina Evolución del Software. Esto incluye el desarrollo inicial del software, mantenimiento y actualizaciones, hasta que el producto deseado finalmente es desarrollado, lo que satisface los requerimientos esperados.
+
+Evolución de Software
+
+La evolución empieza con un proceso de recogida de requisitos. Luego los desarrolladores crean un prototipo inicial del software y se muestra a los consumidores para tener un feedback en un etapa temprana del desarrollo del producto de software. Los consumidores sugieren cambios, los cuales irán mejorando con actualizaciones y tareas de mantenimiento de manera progresiva. Este proceso cambia el software original hasta llegar al producto deseado.
+
+Incluso después de que el consumidor tenga el software en sus manos, el avance de la tecnología y los cambios de requisitos fuerzan al producto software a cambiar en acorde a estos. Volver a cerar software des de cero, e ir cumpliendo uno por uno los requisitos no es viable. La única solución viable y económica es actualizar el software ya existente para que se adecue satisfactoriamente con los requisitos más recientes.
+Leyes de evolución del software
+
+Lehman formuló leyes para la evolución del software. Dividió el software en 3 categorías distintas:
+
+    'S-type' ('static-type', tipo estático) - Es un tipo de software, que funciona estrictamente según se ha definido especificaciones y soluciones. La solución y el método mediante el cual se consigue, se deben entender de immediate antes de empezar a codificar. El software 's-type' está menos sujeto a cambios, de ahí que sea el más simple de todos. Por ejemplo, el programa de calculadora, para computación matemática.
+    'P-type' ('practical-type', tipo práctico) - This is a software with a collection of procedures. This is defined by exactly what procedures can do. In this software, the specifications can be described but the solution is not obvious instantly. For example, gaming software.
+    'E-type' ('embedded-type', tipo embebido o empotrado) - This software works closely as the requirement of real-world environment. This software has a high degree of evolution as there are various changes in laws, taxes etc. in the real world situations. For example, Online trading software.
+
+Evolución del software 'E-Type'
+
+Lehman dictó 8 leyes de evolución del software 'E-Type' -
+
+    Cambio continuo - Los sistemas de software 'E-type' deben adaptarse de forma progresiva a los cambios del mundo real, de no ser así se volverá progresivamente menos útil.
+
+    Complejidad creciente- A medida que el sistema software 'E-type' evoluciona, sus complejidades tienden a incrementar a menos que se trabaje en ello con el fin de mantenerlas o reducirlas.
+
+    Conservació de la familiaridad - La familiaridad con el software o con el conocimiento sobre cómo y por qué fue desarrolado de una manera en concreto, etc. debe ser retenido a cualquier coste, con tal de poder implementar cambios en el sistema.
+
+    Crecimiento continuado- Para que un sistema 'E-type' intente resolver problemas de negocios, su magnitud para implementar camvios crece en acorde con los cambios de estilo de vida del negocio.
+
+    Decremento de la calidad - Los sistemas software 'E-type' reducen su calidad a menos que se mantengan de forma rigurosa o se adapten a los cambios operativos del entorno.
+
+    Sistemas de retroalimentación- Los sistemas software 'E-type' son sistemas de retroalimentación multi-loop y multi-nivel, deben ser considerados como tal con el fin de ser modificados o mejorados con éxito.
+
+    Autorregulación- Los procesos de evolución del sistema 'E-type', se regulan a sí mismos con la distribución del producto y las medidas del proceso de una manera casi normal.
+
+    Estabilidad organizacional - La tasa media de actividad efectiva global en un sistema evolutivo de 'E-type', no varia en toda la vida del producto.
+
+Paradigmas de Software
+
+Los paradigmas de Software son métodos y pasos, que se llevan a cabo mientras el software se diseña. Hay muchos métodos que se han propuesto y que funcionan hoy en día, pero necesitamos ver donde se ubican estos paradigmas en el marco de la Ingeniería de software. Estos se pueden combinar en varias categorías, en las que cada uno de ellos contiene a la otra:
+
+Evolución de Software
+
+El paradigma de programación es una parte del paradigma de diseño de Software y más adelante también se considera parte del paradigma de desarrollo de Software.
+Paradigma del desarrollo Software
+
+Este paradigma es conocido como paradigma de ingeniería de software, en el que todos los conceptos de ingeniería pertenecientes al desarrollo de software son implementados. Incluye varias investigaciones y recogida de requisitos lo que ayuda a la construcción del producto software. Consiste de –
+
+    Recogida de requisitos
+    Diseño de Software
+    Programación
+
+Paradigma de diseño de Software
+
+Este paradigma forma parte del desarrollo software e incluye –
+
+    Diseño
+    Mantenimiento
+    Programación
+
+Paradigma de programación
+
+Este paradigma se relaciona de estrechamente a aspectos de programación en el desarrollo de software. Esto incluye –
+
+    Codificación
+    Pruebas
+    Integración
+
+Necesidad de la Ingeniería de Software
+
+La necesidad de la Ingeniería de software viene de la alta tasa de cambio en los requisitos y en el entorno en que trabaja el software.
+
+    Software de gran tamaño- Es más fácil construir una pared que construir una casa, de la misma manera, a medida que el software aumenta su tamaño, la ingeniería debe entrar para darle un proceso científico.
+
+    Escalabilidad- Si el proceso software no estuviera basado en conceptos científicos y de ingeniería, sería más fácil volver a crear nuevo software que escalar uno ya existente.
+
+    Costes- A medida que la industria del hardware ha mostrado sus capacidades y grandes fabricaciones, ha bajado el precio del hardware electrónico e informático. Pero el coste del software sigue siendo alto si el proceso no se ha adaptado a los nuevos avances.
+
+    Naturaleza dinámica - La naturaleza del software, creciente y adaptable, depende en gran medida del entorno en el que el consumidor trabaje. Si la naturaleza del software siempre cambia, se necesitará mejorar el ya existente. Aquí es donde la ingeniería de software juega un gran papel.
+
+    Gestión de calidad- Los mejores procesos de desarrollo de software producen productos mejores y de calidad.
+
+Carcterísticas de un buen software
+
+Un producto software puede ser juzgado según lo que ofrece y la manera en que se puede usar.El software debe satisfacer en los siguientes aspectos:
+
+    Operacional
+    Transicional
+    Mantenimiento
+
+Un software que se ha creado con buena ingeniería, debe tener los siguientes rasgos:
+Operacional
+
+Esto nos cuenta lo bien que funciona el software en operaciones. Se puede medir en base a:
+
+    Presupuesto
+    Usabilidad
+    Eficiencia
+    Exactitud
+    Funcionalidad
+    Dependabilidad
+    Seguridad informática
+    Seguridad
+
+Transicional
+
+Este aspecto es importante cuando el software se mueve de una plataforma a la otra:
+
+    Portabilidad
+    Interoperabilidad
+    Reutilización
+    Adaptabilidad
+
+Maintenimiento
+
+Estos aspectos resumen la capacidad que tiene el software para mantenerse en entornos contantemente cambiantes:
+
+    Modularidad
+    Sostenibilidad
+    Flexibilidad
+    Escalabilidad
+
+En resumen, La Ingeniería de Software es una rama de las ciencias de la computación, que usa conceptos de Ingeniería bien definidos requeridos para producir productos software eficientes, duraderos, escalable, y asequibles a tiempo.

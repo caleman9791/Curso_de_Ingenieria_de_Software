@@ -1,14 +1,16 @@
-Software_Vision_General
-Software_Ciclo_de_Vida_de_Desarrollo
-Software_Gestion_del_Proyecto
-Software_Requisitos
-Software_Basicas_de_Diseno
-Herramientas_de_Analisis_y_de_Diseno
-Software_Estrategias_de_Diseno
-Software_Diseno_de_UI
-Software_Diseno_Complejidad
-Software_Implementacion
-Software_Vision_General_de_Pruebas
-Software_Mantenimiento
-Software_CASE_Herramientas
-Mejores_practicas_del_desarrollador
+Introducción
+¿Qué es la práctica?
+Lectura y lectura de códigos
+La documentación es la clave
+Siga los estándares
+		Convención de nomenclatura de archivos
+		Convención de nomenclatura de funciones y módulos
+		Convención de nomenclatura de variables
+		Historial, sangría, comentarios
+		Directrices de legibilidad
+		Lista de hacer y no hacer
+Escribir para ser revisado
+La prueba es la religión
+Mantenga los activos seguros
+Herramientas y técnicas útiles
+Ansioso por aprender

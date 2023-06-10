@@ -1,14 +1,88 @@
-Software_Vision_General
-Software_Ciclo_de_Vida_de_Desarrollo
-Software_Gestion_del_Proyecto
-Software_Requisitos
-Software_Basicas_de_Diseno
-Herramientas_de_Analisis_y_de_Diseno
-Software_Estrategias_de_Diseno
-Software_Diseno_de_UI
-Software_Diseno_Complejidad
-Software_Implementacion
-Software_Vision_General_de_Pruebas
-Software_Mantenimiento
-Software_CASE_Herramientas
-Mejores_practicas_del_desarrollador
+
+tutorialspoint.com
+Software - Estrategias de DiseÃ±o
+7–9 minutes
+
+El Diseño de Software es un proceso para conceptualizar los requisitos de software en implementación de software. El Diseño de Software toma los requisitos del Usuario como retos e intenta encontrar soluciones óptimas. Mientras el software se conceptualiza, se planea el mejor diseño para poder implementar la solución deseable.
+
+Hay muhas variantes de diseño de software. Estudiémoslas pues de manera breve:
+Diseño Estructurado
+
+El Diseño estructurado es la conceptualización de un problema en varios elementos organizados de solución. Está básicamente centrado en el diseño de soluciones. El beneficio del diseño estructurado es que da un mejor entendimiento sobre cómo se resuelve el prolema. El diseño estructurado también simplifica el proceso al diseñador, por tanto este último puede concentrarse en el problema de forma más acurada.
+
+El Diseño estructurado se basa en 'dividir y conquistar', estrategia donde el problema se rompe en otros pequeños problemas y cada uno es tratado por separado para finalmente resolver la totalidad del problema.
+
+Los pequeños problemas en los que se sudivide el problema principal se solucionan y agrupan en módulos de solución. El Diseño estrucurado emfatiza en que los módulos estén bien organizados con tal de que se consiga la solución precisa requerida.
+
+Estos módulos se organizan de manera jerárquica. Se comunican entre ellos. Un buen diseño estructurado siempre sigue algunas normas de comunicación entre los diversos módulos, llamadas -
+
+Cohesión - Agrupar todos los elemntos relacionados por función.
+
+Acoplamiento - comunicación entre los distiontos módulos.
+
+Un buen diseño estructurado tiene alta cohesión y bajo acoplamiento.
+Diseño orientado a la función
+
+En Diseño orientado a la función, el sistema es comprimido en varios pequeños sub sistemas concidos como funciones. Estas funciones son capaces de llevar a cabo tareas significativas en el sistema. El sistema es considerado como la vista superior de todas las funciones.
+
+El diseño orientado a la función posee algunas propiedades inherentes del diseño estructurado donde la metodología de dividir y conquistar se usa.
+
+Este mecanismo de diseño divide la totalidad del sistema en pequeñas funciones, lo cual nos aporta por medio de la abstracción ocultando la información y sus operaciones. Estos módulos funcionales pueden compartir información entre ellos pasando información y usando información disponible a nivel global.
+
+Otra característica de las funciones es que cuando un programa acude a una función, la función cambia el estado del programa, por lo que a veces no es aceptado por otros módulos. El diseño orientado a la función funciona bien cuando el estado del sistema no es importante y programa/funciones funcionan con entradas en vez de con estados.
+Proceso de diseño
+
+    El sistema en su totalidad es visto según cómo fluyen los datos en éste por medio de un diagrama de flujo de datos.
+    El DFD representa cómo las funciones cambian los datos y el estado de todo el sistema.
+    El sistema se rompe de forma lógica en pequeñas unidades conocidas como funciones en base a sus operaciones en el sistema.
+    Cada función es descrita posteriormente en toda su extensión.
+
+Diseño orientado al objeto
+
+El diseño orientado al objeto funciona alrededor de entidades y sus características en vez de involucrando funciones en el sistema de software. Esta estrategia de diseño se centra en entidades y sus características. Todo el concepto de solución de software se centra en las entidades implicadas.
+
+Veamos pues los conceptos importantes que abarca el Diseño orientado al objeto:
+
+    Objetos - Todas las entidades implicadas en el diseño de la solución son conocidas como objetos. Por ejemplo, persona, bancos, empresa, y clientes con tratados como objetos. Cada entidad tiene algunos atributos asociados a éste y tiene algunos métodos para actuar sobre los atributos.
+
+    Clases - Una clase es una descripción general de un objeto. Un objeto es un ejemplo de uan clase. La clase define todos los atributos que un objeto puede tener y los métodos, lo cual define la funcionalidad del objeto.
+
+    En el diseño de la solución, los atributos se almacenan como variables y las funcionalidades se definen por medio de métodos o procedimientos.
+
+    Encapsulación - En OOD, los atributos (variables de los datos) y los métodos (intervención en los datos) se juntan, hablamos de encapsulación. La encapsulación no solo une la iformación importante de un objeto en un mismo lugar, también restringe el acceso a datos y métodos desde el mundo exterior. Esto es llamado ocultación de información.
+
+    Herenia - OOD permite clases similares para acumular de manera jerárquica donde las sub clases pueden importar, implementar y reutilizar variables y métodos permitidos de sus immediatas super clases. Esta propiedad de OOD es conocida como herencia. Esto facilita a la hora de definir clases y crearlas desde otras clases específicas.
+
+    Poliformismo - Los lenguajes OOD nos dan un mecanismo donde los métodos llevan a cabo tareas similares pero con variantes en los argumentos, se le puede asignar el mismo nombre. Esto se llama poliformismo, lo que permite a una interfaz única llevar a cabo tareas de diferente tipo. Dependiendo de como se aplique la función, la parte del código respectiva se ejecuta.
+
+Proceso de diseño
+
+El proceso de diseño de Software se puede definir en una serie de pasos bien definidos. Aunque cambie según el tipo de aproximación (orientado a la función o al objeto), Debe seguir los siguientes pasos:
+
+    Una solución de diseño se crea partiendo de un requisito o un sistema usado con anterioridad y/o el diagrama de secuenia de un sistema.
+
+    Los objetos se identifian y agrupan en clases según su similaridad con las características del atributo.
+
+    La jerarquía de clase y su relación entre ellos está definida.
+
+    El borrador de la aplicación está definido.
+
+Aproximaciones para diseño de Software
+
+Aquí tenemos 2 aproximaciones genéricas para diseñar software:
+Diseño 'Top Down' (de arriba a abajo)
+
+Sabemos que un sistema se compone por más de un sub sistema y que contiene varios componentes. Admás, estos subsistemas y componentes pueden tener su set de sub sistemas y componentes y crear estructuras jerárquicas dentro del sistema.
+
+El Diseño Top-down toma la totalidad del sistema software como una entidad y lo descompone para conseguir más de un sub sistema o componente basado en algunas características. Cada sub sistema o componente es entonces tratado como un sistema descompuesto adicional. Este proceso continúa funcionando hasta llegar al nivel más bajo del sistema en la jerarquía 'top-down'.
+
+El Diseño Top-down empieza con un modelo generalizado de sistema y continúa definiendo las partes más específicas de éste. Cuando todos los componentes están formados el sistema empieza a existir.
+
+El Diseño Top-down es más recomendable cuando la solución software necesita ser diseñada des del inicio y los detalles específicos son desconocidos.
+Bottom-up Design
+
+El modelo de Diseño 'bottom up' (de abajo a arriba) empieza con componentes más basicos y específicos. Continua formando un mayor nivel de componentes usando un nivel básico o bajo de componentes. Sigue creando componentes de alto nivel hasta el punto en el que el sistema deseado no ha evolucionado en un solo componente. Como mayor sea el nivel más incrementará la abstracción.
+
+La estrategia de Bottom-up es más recomendable cuando un sistema necesita ser creado desde uno ya existente, donde los elementos primos pueden usarse para el sistema nuevo.
+
+En Ambos, El diseño top-down y el diseño bottom-up, la aproximación no es práctica de manera individual. Por tanto, se usa una buena combinación de los dos.

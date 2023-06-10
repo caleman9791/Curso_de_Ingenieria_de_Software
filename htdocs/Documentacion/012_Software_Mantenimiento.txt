@@ -1,14 +1,168 @@
-Software_Vision_General
-Software_Ciclo_de_Vida_de_Desarrollo
-Software_Gestion_del_Proyecto
-Software_Requisitos
-Software_Basicas_de_Diseno
-Herramientas_de_Analisis_y_de_Diseno
-Software_Estrategias_de_Diseno
-Software_Diseno_de_UI
-Software_Diseno_Complejidad
-Software_Implementacion
-Software_Vision_General_de_Pruebas
-Software_Mantenimiento
-Software_CASE_Herramientas
-Mejores_practicas_del_desarrollador
+
+tutorialspoint.com
+Software - Mantenimiento
+11–15 minutes
+
+El mantenimiento del Software es hoy en día aceptado com parte del SDLC. Se refiere a todas las modificaciones y actualizaciones que se llevan a cabo después de la entrega del producto software. Hay muchas razones por las que las modificaciones son necesarias, algunas de ellas se mencionan de manera breve a continuación:
+
+    Condiciones de mercado - Leyes, las cuales cambian con el paso del tiempo, como los impuestos o limitaciones que se han introducido de recientemente, como es el caso de : Cómo mantener la contabilidad, puede desencadenar en una necesidad de modificación.
+
+    Requisitos del cliente - A medida que pasa el tiempo, el consumidor puede pedir nuevas funciones o características en el software.
+
+    Modificaciones del servidor - Si algún tipo de hardware y/o plataforma (como es el caso de un sistema operativo) del servidor target cambia, se requerirán cambios en el software para mantener la adaptabilidad.
+
+    Cambios organizativos - Si se produjera algún cambio a nivel de negocio con el consumidor final, como por ejemplo una reducción de la fuerza organizacional, adquiriendo otra compañía, un emprendimiento organizacional en un nuevo negocio, puede que se necesite modificar algo del software original.
+
+Tipos de mantenimiento
+
+En el ciclo vital del software, el tipo de mantenimiento puede variar según la naturaleza del producto. Puede que sea simplemente una tarea rutinaria de mantenimiento porque algún usuario ha encontrado un virus, o puede tratarse propiamente de un gran evento basado en la magnitud del mantenimiento o en su naturaleza. A continuación presentamos algunos tipos de mantenimiento fundamentados en sus características:
+
+    Mantenimiento correctivo - Este tipo incluye las modificaciones y actualizaciones que se han hecho con tal de corregir o resolver problemas descubiertos por el usuario o se han encontrado en informes de error de algún usuario.
+
+    Mantenimiento adaptable - Este tipo icluye modificaciones y actualizaciones que se han aplicado para mantener el producto software al día y en consonancia con el siempre cambiant mundo de las tecnologías y entornos de negocio.
+
+    Mantenimiento perfectivo - Esto incluye las modificaciones y acualizaciones que se han realizado con tal de mantener el software usable por un largo periodo de tiempo. Aquí se incluyen nuevas características, nuevos requisitos para perfeccionar el software y mejorar su fiabilidad y su rendimiento.
+
+    Mantenimiento preventivo - Incluye las modificaciones y actualizaciones para prevenir problemas de software en un futuro. Pretende ocuparse de problemas, que no son muy significativos por el momento pero que podrían ocasionar graves conflictos en un futuro.
+
+Coste de Mantenimiento
+
+Los informes insinúan que el coste de mantenimiento es alto. Un estudio realizado para estimar el mantenimiento de software concluyó que el coste de mantenimiento representa un 67% del coste total en el ciclo del proceso de software.
+
+Mantenimiento Tabla de costos
+
+El promedio del coste del mantnimiento de software constituye más del 50% en todas las fases del SDLC. Hay varios factores, que inducen el aumento del coste de mantenimiento, como es el caso de:
+Factores reales que afectan al coste de mantenimiento
+
+    La edad media de un software se sitúa entre 10 y 15 años.
+
+    Los softwares más viejos, diseñados para trabajar en máquinas lentas y con menos memoria y capacidad de almacenaje, no pueden mantenerse en el mercado con al competencia de nuevos y perfeccionados softwares en hardwares modernos.
+
+    A medida que la tecnología avanza, se vuelve más caro mantener software antiguo.
+
+    La mayoría de ingenieros de mantenimiento son principiantes y usan métodos de error y de prueba para rectificar problemas.
+
+    A menudo, los cambios que se hacen pueden facilmente dañar la estructura original del software, dificultando cambios posteriores.
+
+    Los cambios se suelen dejar indocumentados, lo que puede ocasionar más conflictos en el futuro.
+
+Factores del software final que afectan a los costes de mantenimiento
+
+    Estructura del programa de Software
+    Lenguaje de programación
+    Dependencia a entornos externos
+    Disponibilidad y fiabilidad de personal
+
+Actividades de mantenimiento
+
+El IEEE proporciona un borrador para las actividades del proceso secuencial de mantenimiento. Se puede usar de forma reiterativa y puede extenderse para que los artículos personalizados puedan incluirse.
+
+Mantenimiento Actividades
+
+Estas actividades van cogidas de la mano con cada una de las siguientes fases:
+
+    Identificación & Seguimiento - Incluye las actividades que pertenecen a la identificación de requisitos de modificación o mantenimiento. Es generado por el usuario o el mismo sistema puede anunciar a través de mensajes de error o registros. Aquí, el tipo de mantenimiento también se clasifica.
+
+    Análisis - La modificación se analizada por su impacto en el sistema, incluyendo implicaciones de seguridad. Si un probable impacto es severo, se busca una solución alternativa. Un conjunto de modificaciones requeridas se materializa entonces en requisitos del sistema. El coste del mantenimiento/modificación se analiza y se concluye con una estimación.
+
+    Diseño - Nuevos módulos, que necesitan ser modificados o reemplazados, se diseñan en contra de los requisitos que ya se han fijado en en la fase previa. Las pruebas de casos se han creado para la validación y la verificación.
+
+    Implementación - Los nuevos módulos son codificados con la ayuda del diseño estructurado creado en la fase de diseño. Cada programador debe hacer pruebas unitarias en paralelo.
+
+    Evaluación del sistema - Las pruebas de integración se hace entre nuevos módulos creados. Las pruebas de integración también se llevan a cabo entre módulos nuevos y el sistema. Finalmente el sistema se evalua en su conjunto, siguiendo procedimientos evaluativos reaccionarios.
+
+    Pruebas de aceptación - Después de evaluar el sistema de manera interna, se evalúa la acceptación con la ayuda de los consumidores. Si en esta etapa, los consumidores se quejan de algún asunto, son redirigidos o se les notifica que se dirijan a la siguiente repetición.
+
+    Entrega - Después del test de aceptación, el sistema se implementa en la totalidad de la organización con pequeños paquetes de actualizaciones o con la instalación nueva del sistema. La evaluación final se da con el consumidor final después de entregar el software.
+
+    Se provee formación si se requiere, además de una copia en papel del manual del usuario.
+
+    Gestión de mantenimiento - La gestión de la configuración es una parte esencial del mantenimiento del sistema. Es auxiliado con herramientas de control de versiones, semi-versiones o Gestión de parches.
+
+Refactorización de Software
+
+Cuando necesitamos actualizar el software para mantenerlo en el mercado actual, sin afectar a su funcionalidad, estamos ante un caso de refactorización de software. Es un proceso en el que el diseño del software se cambia y los programas se escriben de nuevo.
+
+El software heredado no puede adaptarse a las nuevas y más recientes tecnologías disponibles en el mercado. Como que el hardware se vuelve obsoleto, la actualización de software se convierte en un dolor de cabeza. Aunque el software envejezca con el tiempo, sus funcionalidades no hacen los mismo.
+
+Por ejemplo, Unix fue desarrollado en lenguaje ensamblador. Cuando el lenguaje C empezó a existir, Unix fue refactorizado en C, porque trabajando en el lenguaje previo era difícil.
+
+A parte de este caso, a veces los programadores notan que en algunas partes del software se necesita más mantenimiento que en otras, y también necesitan refactorización.
+
+Proceso de Re-Ingeniería
+Proceso de refactorización
+
+    Decidir Lo que va a ser refactorizado, si va a ser una parte del software o su totalidad.
+
+    Desarrollar La ingeniería inversa, con tal de obtener especificaciones de software ya existentes.
+    Reestructurar el programa Si se requiere. Por ejemplo, cambiar programas orientados a la función en programas orientados al objeto.
+
+    Reestructurar datos tal y como se requiera.
+
+    Aplicar conceptos de Ingeniería directa o deductiva con tal de que el software pase por un proceso de refactorización.
+
+Hay varios conceptos importantes usados en la refactorización de Software
+Ingeniería inversa
+
+Es un proceso para lograr especificaciones del sistema a través del análisis y el entenidimiento del sistema existente. Este proceso puede verse como un modelo inverso de SDLC, esto es, intentamos lograr mayor nivel de abstracción analizando niveles de abstracción más bajos.
+
+En un sistema existente se implementa un diseño previamente, sobre el que no sabemos nada. Los diseñadores utilizan entonces ingeniería inversa observando el código e intentan lograr el diseño. Con el diseño en mano, intentan encontrar las especificaciones. Por consiguiente, van al revés des del código hasta los requisitos del sistema.
+
+Ingeniería Inversa
+Reestructurar el Programa
+
+Es un proceso de reestructuración y construción de software ya existente. Se vuelve a organizar el código de origen, en el mismo lenguaje de programación o con otro distinto. La reestructuración puede tener su origen en la reestructuración del código, de los datos o de ambos.
+
+La reestructuración no tiene un impacto en la funcionalidad del software, pero aumenta la fiabilidad y la capacidad de su mantenimiento. Los elementos del Programa, que ocasionan errores frecentemente pueden cambiarse o actualizarse con a reestructuración.
+
+La dependencia del software en plataformas hardware obsoletas se puede eliminar a través de la reestructuración.
+Ingeniería directa
+
+La ingeniería directa es un proceso para obtener el software deseado a partir de los requisitos que se han obtenido mediante la ingeniería invertida. Asume que había alguna ingeniería de software ya hecha en el pasado.
+
+La ingeniería directa es igual que en el proceso de ingeniería de software pero con una diferencia – Siempre se lleva a cabo después de la ingeniería inversa.
+
+Ingeniería Adelante
+Reutilización de componentes
+
+Un componente es parte del código del programa software, el cual ejecuta tareas independientes en el sistema. Puede ser un módulo pequeño o un subsistema en sí mismo.
+Ejemplo
+
+Los procedimientos de acceso que se usan en las webs se pueden cosiderar como componentes, el sistema de impresión en software se puede considerar como componente del software.
+
+Los Componentes tienen una alta cohesión de funcionalidad y una tasa baja de acoplamiento, esto es, trabajan de manera independiente y pueden llevar a cabo tareas sin tener que depender de otros módulos.
+
+En programación orientada al objeto (OOP), los objetos se diseñan de forma muy específica dependiendo de sus preocupaciones, y tienen pocos cambios par ser usados en otro software.
+
+En programación modular, los módulos se codifican para llevar a cabo tareas concretas que se pueden usar sobre un gran número de otros programas software.
+
+Hay una nueva y completa vertical, que se basa en la reutilización de componentes software, y se conoce como programación orientada a componentes (que también es llamada basada en componentes y tiene sus siglas en inglés 'CBSE').
+
+componentes
+
+La reutilización se puede hacer en varios niveles
+
+    Nivel de aplicación - Cuando una aplicación entera se usa como subsistemade software nuevo.
+
+    Nivel de Componente - Cuando el subsistema de una aplicación es usado.
+
+    NIvel de módulos - Donde los módulos funcionales son reutilizados.
+
+    Los componentes del Software aportan interfaces, que pueden usarse para establecer comunicación entre los distintos componentes.
+
+Proceso de reutilización
+
+Se pueden adoptar dos tipos de método: o manteniendo los requisitos de la misma manera y ajustando los componentes, o manteniendo los componentes igual pero modificando los requisitos.
+
+Proceso de reutilización
+
+    Requisitos del sistema - Los requisitos funcionales y no funcionales del producto software se especifican, y este debe cumplirlos, con la ayuda del sistema existente, una entrada (input) de un usuario, o con ambos.
+
+    Diseño - Esto es también un paso del proceso estándar de SDLC,donde los requisitos se definen en términos de jerga de software. La arquitectura básica del sistema en su totalidad y sus subsistemas son creados.
+
+    Especificar componentes - Mediante el estudio del diseño software, los diseñadores dividen la totalidad del sistema en pequeños componentes o subsistemas. Un diseño de software completado se vuelve una gran colección de componentes trabajando juntos.
+
+    Buscar componentes adecuados - El repositorio de componentes software es consultado por los diseñadores para buscar el componente que combina, en base a la funcionalidad y a los requisitos del software.
+
+    Incorporar Componentes - Todos los componentes emparejados y combinados se empaquetan juntos para convertirlos en software completo.
+

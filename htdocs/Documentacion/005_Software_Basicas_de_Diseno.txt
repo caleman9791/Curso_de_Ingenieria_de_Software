@@ -1,14 +1,94 @@
-Software_Vision_General
-Software_Ciclo_de_Vida_de_Desarrollo
-Software_Gestion_del_Proyecto
-Software_Requisitos
-Software_Basicas_de_Diseno
-Herramientas_de_Analisis_y_de_Diseno
-Software_Estrategias_de_Diseno
-Software_Diseno_de_UI
-Software_Diseno_Complejidad
-Software_Implementacion
-Software_Vision_General_de_Pruebas
-Software_Mantenimiento
-Software_CASE_Herramientas
-Mejores_practicas_del_desarrollador
+
+tutorialspoint.com
+Software - BÃ¡sicas de DiseÃ±o
+8–10 minutes
+
+El diseño de Software es un proceso que transforma los requisitos del usuario de una manera conveniente, lo que ayuda al programador a en la codificación e implementación del software.
+
+Para evaluar los requisitos del usuario, un documento SRS (Software Requirement Specification, en español 'ERS' especificación de requisitos de software ) se crea tanto para codificar como para implementar, hay una necesidad de especificar de un modo más detallado los requisitos en términos de Software. El resultado de este proceso puede ser usado directamente en la implementación de lenguajes de programación.
+
+El diseño de Software es el primer paso en el SFDLC(Software Design Life Cycle, en español ciclo de vida del diseño de software), lo que cambia la atención e importancia desde problema de dominio a solución de dominio. Intenta espedificar cómo satisfacer los requisitos mencionados en el SRS.
+Diseño de niveles o entornos de Software
+
+El diseño de Software produce 3 niveles de resultados:
+
+    Diseño arquitectónico - El Diseño arquitectónico, es la versión más abstracta del sistema. Identifica el software como un sistema con distintos componentes que interactuan entre ellos. En este momento es cuando los diseñadores conciben la idea de posibles solucionesde dominio.
+
+    Diseño de alto nivel- El Diseño de alto nivel, rompe con el concepto de diseño arquitectónico que se refiere a ‘Componente de única entidad múltiple', por lo contrario tiene un punto de vista menos abstracto de los sub sistemas y módulos y representa la existente interacción entre ellos. El Diseño de alto nivel se centra en cómo el sistema junto con todos sus componentes se puede implementar en forma de módulos. Reconoce estructuras modulares de cada sub sistema y su relación e interaccion entre las mismas.
+
+    Diseño detallado- El Diseño detallado diseña acuerdos con la parte de implementación de lo que se ve como sistema y sus sub sistemas con los dos tipos de diseño mencionados con anterioridad. Es más detallado en cuanto a los módulos y a su implementación. Define estructuras lógicas de cada módulo y de sus interfaces para comunicarse con los otros módulos.
+
+Modularización
+
+La Modularización es una técnica para dividir sistemas de Software en múltiples separados e independientes módulos, los cuales se espera que sean capaces de llevar a cabo tareas(s) de forma independiente. Estos módulos pueden funcionar como creaciones básicas para la totalidad del software. Los diseñadores tienden a diseñar módulos que se pueden ejecutar y/o almacenar por separado y de manera independiente.
+
+El diseño modular involuntariamente sigue las normas de la estrategia de resolución de problemas centradas en ‘dividir y conquistar’, esto se da porque hay muchos otros beneficios relacionados con el diseño modular de un software.
+
+Ventajas de la modularización:
+
+    Los componentes más pequeños son más fáciles de mantener
+    El programa se puede clasificar según los aspectos funcionales
+    El nivel deseado de abstracción se puede aplicar al programa
+    Los components con gran cohesión pueden reutilizarse de nuevo
+    La ejecución simultánea es possible
+    Es apropiado des del punto de vista de la seguridad
+
+Concurrencia informática
+
+Hace un tiempo, todos los softwares se hacían con la idea de que fueran ejecutados de forma secuencial. Por secuencial se entiende que las instrucciones codificadas serán ejecutadas una después de la otra implicando solo una parte del programa activado en cualquier momento. Pongamos que un software tiene múltiples módulos, en este caso solo uno de entre todos los módulos puede estar activo en cualquier momento de la ejecución.
+
+En Diseño de software, la concurrencia se implementa dividiendo el software en varias unidades de ejecución independientes, como si fueran módulos ejecutándolos en paralelo. En otras palabras, la concurrencia aporta capacidad al software para poder ejecutar más de una parte del código de forma paralela a a las otras.
+
+Es necesario para programadores y diseñadores poder reconocer estos módulos, los cuales se pueden crear de forma paralela a la ejecución.
+Ejemplo
+
+El corrector ortográfico del procesador de textos Word es un módulo de software, que funciona de forma independiente al procesador de textos mismo.
+Acoplamiento y cohesión
+
+Cuando un programa software está modularizado, sus tareas se dividen en varios módulos en base a algunas características. Como sabemos, los módulos son sets de instrucciones agrupados con la finalidad de lograr ciertas tareas. Son complicados, si se consideran como una sola entidad, pero pueden consultar al otro y trabajar de manra conjunta. Hay formas de medir la calidad del diseño de los módulos y de sus interacciones. Estas medidad se denominan acoplamiento y cohesión.
+Cohesión
+
+La Cohesión es una medida que define el grado de interdependencia entre los elementos que conforman los módulos. A mejor cohesión, mejor diseño de programa obtenemos.
+
+Hay siete tipos de cohesión, llamados –
+
+    Cohesión coincidente - Es una cohesión no planificada y random, la cual puede romper el programa en pequeños módulos por el bien de la modularización. Como que no tiene una planificació, puede confundir a los programadores. Por eso este tipo no está generalmente aceptado.
+
+    Cohesión lógica - La categorización de manera lógica en la que los elementos se colocan juntos en un mismo módulo, se denomina Cohesión lógica.
+
+    Cohesión temporal - Cuando los elementos del módulo se organizan de manera que se procesan en un momento similar en el tiempo, hablamos de Cohesión temporal.
+
+    Cohesión procedimental - Cuando los elementos del módulo se agrupan juntos, y se ejecutan de forma secuencial para poder llevar a cabo una tarea, hablamos de Cohesión procedimental.
+
+    Cohesión comunicativa - Cuando los elementos del módulo se agrupan juntos, y se ejecutan y funcionan en los mismos datos (información) de forma secuencial, hablamos de Cohesión comunicativa.
+
+    Cohesión secuencial - Cuando los elementos del módulo se agrupan porque el resultado de un elemento sirve de entrada a otro y así sucesivamente, hablamos de Cohesión secuencial.
+
+    Cohesión funcional - Se considera la mejor en cuanto a mayor grado de cohesión, y es altamente previsible. Los elementos del módulo en cohesion funcional se agrupan porque todos ellos contribuyen a conseguir una función única y bien definida. También se puede reutilizar.
+
+Acoplamiento
+
+El acoplamiento es una medida que define el nivel de interdependencia entre los módulos del programa. Nos muestra el nivel en que los módulos interfieren e interactuan entre ellos. A menor acoplamiento, mejor programa se obtiene.
+
+Hay cinco niveles de acoplamiento, llamados -
+
+    Acoplamiento de contenido - Cuando un módulo puede acceder, modificar o consultar directamente el contenido de otro módulo hablamos de acoplamiento del nivel de contenido.
+
+    Acoplamiento común- Cuando múltiples módulos han leído y escrito el acceso a algun dato global, hablamos de acoplamiento global o común.
+
+    Acoplamiento de Control- Dos módulos se denominan acoplados de control si uno de ellos decide la función del otro o cambia su flujo de ejecución.
+
+    Acoplamiento 'stamp'- Cuando múltiples módulos comparten la misma estructura de datos y funcionan en diferentes partes de la misma, hablamos de acoplamiento 'stamp'.
+
+    Acoplamiento de datos- Se da cuando dos módulos interactuan entre ellos con la finalidad de pasarse información (como parámetro). Si un módulo pasa una estructura de datos como parámetro, el módulo receptor debe usar todos sus componentes.
+
+No hay un tipo de acoplamiento que se considere el mejor.
+Verificación del Diseño
+
+El resultado del proceso de diseño de Sofware es diseñar documentación, pseudo códigos, diagramas lógicos y detallados, diagramas de proceso, y descripción detallada de todos los requisitos funcionales y no funcionales.
+
+La siguiente fase, la implementación del software, depende de los resultados mencionados con anterioridad.
+
+En este momento es cuando se necesita verificar los resultados antes de proceder con la siguiente fase. Cuanto antes de detecte un error mejor, ya que puede que no se detecte hasta que se realicen las pruebas de software del producto al final del proceso. Si los resultados de la fase de diseño son anotaciones formales, sus herramientas asociadas para la verificación deben ser usadas, en caso contrario se puede usar una revisión del diseño para la verificación y la validación.
+
+En la aproximación de verificación estructurada, los evaluadores pueden detectar defectos que se han ocasionado por haber omitido algunas condiciones. Un buen evaluador de diseño es importante para conseguir un buen diseño de software con calidad y acurado.
